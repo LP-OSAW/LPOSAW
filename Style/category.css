@@ -84,12 +84,11 @@ h1 {
 
 .cards button {
     width: 60%;
-    height: 3rem;
     background-color: #202d4a;
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 0.5rem;
-    font-size: 1.2rem;
+    line-height: 3.5rem;
+    font-size: 1.5rem;
     cursor: pointer;
 }
