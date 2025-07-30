@@ -82,7 +82,7 @@ h1 {
     padding: 0 1rem;
 }
 
-.cards button {
+.cards a,button {
     width: 60%;
     height: 3rem;
     background-color: #202d4a;
@@ -92,4 +92,5 @@ h1 {
     padding: 0.5rem;
     font-size: 1.2rem;
     cursor: pointer;
+    text-decoration: none;
 }
