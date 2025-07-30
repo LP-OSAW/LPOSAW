@@ -1,8 +1,8 @@
-let explores = document.querySelectorAll('.explore');
+let nextPageBtns = document.querySelectorAll('.nextPage');
 
-explores.forEach(explore => {
-    explore.addEventListener('click', () => {
-        let card = explore.parentElement;
+nextPageBtns.forEach(nextPageBtn => {
+    nextPageBtn.addEventListener('click', () => {
+        let card = nextPage.parentElement;
         let h2 = card.childNodes[3];
         let categoryName = h2.innerText;
         window.location.href = `/Pages/${categoryName}.html`; 
