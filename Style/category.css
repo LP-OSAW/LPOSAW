@@ -96,7 +96,8 @@ h1 {
 
 @media (max-width: 1024px) {
     .container {
-    width:  1183px;
+     
+        width:  1183px;
     }
 }
 
@@ -111,7 +112,7 @@ h1 {
         width:  310px;
          margin-top: 1rem;
          margin-left: auto;
-    margin-right: auto;
+         margin-right: auto;
     }
   
 }
