@@ -11,7 +11,7 @@ function renderModal(card, title) {
     modalContent.classList.add("modal-content");
 
     let p = document.createElement("p");
-    p.innerText = "Are you read agrement";
+    p.innerText = "Are you read agreement?";
     modalContent.appendChild(p);
 
     let btnCont = document.createElement("div");
