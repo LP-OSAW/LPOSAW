@@ -37,6 +37,7 @@ function renderModal(card, title) {
 
 nextPageBtns.forEach(nextPageBtn => {
     nextPageBtn.addEventListener('click', () => {
+        console.log(nextPageBtn, "Clicked!");
         let card = nextPageBtn.parentElement;
         let h2 = card.childNodes[3];
         let title = h2.innerText;
