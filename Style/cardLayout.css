@@ -91,11 +91,9 @@ h1 {
     line-height: 3.5rem;
     font-size: 1.5rem;
     cursor: pointer;
-<<<<<<< HEAD:Style/category.css
     text-decoration: none;
 }
-=======
-}
+
 
 @media (max-width: 1024px) {
     .container {
@@ -119,4 +117,3 @@ h1 {
     }
   
 }
->>>>>>> 43c91e871907d3a1543df953930304636288ee0b:Style/cardLayout.css
