@@ -22,7 +22,6 @@ body,html {
     height: 100%;
     background-color: #080b14;
     color: white;
-    padding: 1rem 0;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -38,7 +37,6 @@ h1 {
 }
 
 .container {
-    /* width: 1216px; */
     width: 100%;
     display: flex;
     flex: 1;
@@ -46,9 +44,7 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 2.5rem;
-    margin-top: 5rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 2rem;
     overflow: auto;
 }
 
@@ -71,10 +67,8 @@ h1 {
     width: 23rem;
     height: 30rem;
     background-color: #111729;
-    /* margin: 2rem; */
     border-radius: 10px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     color: white;
@@ -95,7 +89,6 @@ h1 {
     font-size: 2rem;
     font-family: 'KalamaykaVF', sans-serif;
     text-align: center;
-    /* padding: 1rem; */
 }
 
 .cards .content {
@@ -128,27 +121,4 @@ button {
     font-size: 1.2rem;
     cursor: pointer;
     text-decoration: none;
-}
-
-
-@media (max-width: 1024px) {
-    .container {
-        width: 1183px;
-    }
-}
-
-@media (max-width: 425px) {
-    h1 {
-        margin-left: 15%;
-        margin-top: 10%;
-        font-size: 2.5rem;
-    }
-
-    .container {
-        width: 310px;
-        margin-top: 1rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
 }
