@@ -7,7 +7,7 @@ nextPageBtns.forEach(nextPageBtn => {
         let title = h2.innerText;
         if (nextPageBtn.innerText == 'Join Room') {
             // jump to next room
-            window.location.href = `/Pages/${title} Room.html`;
+            window.location.href = `/Pages/YogaSkillRooms/${title} Room.html`;
         }
         else if (nextPageBtn.innerText == 'Explore') {
             // jump to next page
