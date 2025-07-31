@@ -3,6 +3,7 @@ let nextPageBtns = document.querySelectorAll('.nextPage');
 function renderModal(card, title) {
     let container = card.parentElement;
     let body = container.parentElement;
+    let h1 = body.childNodes[1];
 
     let modalContainer = document.createElement("div");
     modalContainer.classList.add("modal-container");
@@ -11,7 +12,7 @@ function renderModal(card, title) {
     modalContent.classList.add("modal-content");
 
     let p = document.createElement("p");
-    p.innerText = "Are you read agrement";
+    p.innerText = "Are you read agreement?";
     modalContent.appendChild(p);
 
     let btnCont = document.createElement("div");
@@ -27,7 +28,8 @@ function renderModal(card, title) {
     yesBtn.innerText = "Yes i read";
     btnCont.appendChild(yesBtn);
     yesBtn.addEventListener("click", () => {
-        window.location.href = `/Pages/YogaSkillRooms/${ title } Room.html`;
+        let [skillName] = h1.innerText.split(" ");
+        window.location.href = `/Pages/${skillName}SkillRooms/${ title } Room.html`;
     })
 
     modalContent.appendChild(btnCont);
@@ -37,6 +39,7 @@ function renderModal(card, title) {
 
 nextPageBtns.forEach(nextPageBtn => {
     nextPageBtn.addEventListener('click', () => {
+        console.log(nextPageBtn, "Clicked!");
         let card = nextPageBtn.parentElement;
         let h2 = card.childNodes[3];
         let title = h2.innerText;
