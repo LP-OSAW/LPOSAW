@@ -22,6 +22,9 @@ function renderModal(card, title) {
     noBtn.classList.add("cancel");
     noBtn.innerText = "Not read";
     btnCont.appendChild(noBtn);
+    noBtn.addEventListener("click", () => {
+        modalContainer.remove();
+    });
 
     let yesBtn = document.createElement("button");
     yesBtn.classList.add("yes-btn");
