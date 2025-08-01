@@ -154,7 +154,6 @@ main::-webkit-scrollbar-thumb {
 
 .check {
   display: none;
-  font-weight: 700;
 }
 
 .cards button:hover .check {
