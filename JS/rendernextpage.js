@@ -1,6 +1,6 @@
 let nextPageBtns = document.querySelectorAll('.nextPage');
 
-function renderModal(card, title) {
+function renderModal(card, roomName) {
     let container = card.parentElement;
     let body = container.parentElement;
     let h1 = body.childNodes[1];
@@ -32,7 +32,6 @@ function renderModal(card, title) {
     btnCont.appendChild(yesBtn);
     yesBtn.addEventListener("click", () => {
         let [skillName] = h1.innerText.split(" ");
-        let [roomName] = title.split(" ");
         window.location.href = `/Pages/${skillName}SkillRooms/${ roomName } Room.html`;
     })
 
@@ -47,13 +46,20 @@ nextPageBtns.forEach(nextPageBtn => {
         let card = nextPageBtn.parentElement;
         let h2 = card.childNodes[3];
         let title = h2.innerText;
+        let [roomName] = title.split(" ");
+
         if (nextPageBtn.innerText == 'Join Room') {
             // jump to next room
-            renderModal(card, title);
+            renderModal(card, roomName);
         }
         else if (nextPageBtn.innerText == 'Explore') {
             // jump to next page
             window.location.href = `/Pages/${ title }.html`;
+        }
+        else if(nextPageBtn.innerText == 'Check in') {
+            let dirName = ((window.location.pathname).split("_"))[0].split("/")[2] + "Data";
+            let fileName = roomName + ".json";
+            window.location.href = `/Pages/Day.html`;
         }
     });
 });
