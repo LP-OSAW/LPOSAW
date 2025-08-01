@@ -135,10 +135,29 @@ main::-webkit-scrollbar-thumb {
   color: white;
   border: none;
   border-radius: 5px;
-  line-height: 3rem;
+  height: 3rem;
   font-size: 1.2rem;
   margin-bottom: 0.7rem;
   cursor: pointer;
+  position: relative;
+}
+
+.cards button p {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+}
+
+.cards button .btn-name {
+  opacity: 0.6;
+}
+
+.cards button .lock {
+  background-color: rgba(0, 0, 0, 0.177);
 }
 
 @media (max-width: 1024px) {
