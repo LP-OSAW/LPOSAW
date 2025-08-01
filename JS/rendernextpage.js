@@ -32,7 +32,8 @@ function renderModal(card, title) {
     btnCont.appendChild(yesBtn);
     yesBtn.addEventListener("click", () => {
         let [skillName] = h1.innerText.split(" ");
-        window.location.href = `/Pages/${skillName}SkillRooms/${ title } Room.html`;
+        let [roomName] = title.split(" ");
+        window.location.href = `/Pages/${skillName}SkillRooms/${ roomName } Room.html`;
     })
 
     modalContent.appendChild(btnCont);

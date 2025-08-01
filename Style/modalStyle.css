@@ -37,6 +37,10 @@
     display: flex;
 }
 
+.modal-content .btn-container button {
+    margin-bottom: 0;
+}
+
 .yes-btn {
     background-color: #080b14;
 }
