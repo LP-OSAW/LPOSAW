@@ -26,7 +26,7 @@ html {
 }
 
 body {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 
@@ -35,13 +35,14 @@ h1 {
   color: #f0f0f0;
   font-family: "oddval-SemiBold", sans-serif;
   margin-left: 11%;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
 }
 
 main {
   width: 100%;
   display: flex;
   flex: 1;
-  margin-top: 2rem;
   padding: 1rem 2rem;
   overflow: auto;
   gap: 2%;
@@ -116,6 +117,15 @@ main::-webkit-scrollbar-thumb {
   text-align: center;
   background-color: #202d4a;
   padding: 0 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.cards .content p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .cards button {
