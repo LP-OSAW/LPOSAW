@@ -152,6 +152,19 @@ main::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
+.check {
+  display: none;
+  font-weight: 700;
+}
+
+.cards button:hover .check {
+  display: block;
+}
+
+.cards button:hover .day {
+  display: none;
+}
+
 .lock {
   width: 100%;
   height: 100%;
