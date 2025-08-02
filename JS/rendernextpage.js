@@ -43,7 +43,6 @@ function renderModal(card, title) {
 
 nextPageBtns.forEach(nextPageBtn => {
     nextPageBtn.addEventListener('click', () => {
-        console.log(nextPageBtn, "Clicked!");
         let card = nextPageBtn.parentElement;
         let h2 = card.childNodes[3];
         let title = h2.innerText;
@@ -59,9 +58,12 @@ nextPageBtns.forEach(nextPageBtn => {
         else if (nextPageBtn.innerText == 'Check in') {
             let dirName = ((window.location.pathname).split("_"))[0].split("/")[2] + "Data";
             let fileName = ((window.location.pathname).split("_"))[1].split("/")[1].split("%")[0];
+            let day = nextPageBtn.childNodes[1].innerText;
+            day = day.split(" ")[1];
+
             fileName = fileName + ".json";
 
-            window.location.href = `/Pages/Day.html?dir=${encodeURIComponent(dirName)}&file=${encodeURIComponent(fileName)}`;
+            window.location.href = `/Pages/Day.html?dir=${encodeURIComponent(dirName)}&file=${encodeURIComponent(fileName)}&day=${encodeURIComponent(day)}`;
         }
     });
 });

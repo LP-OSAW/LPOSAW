@@ -11,27 +11,29 @@ let theoryContainer = document.querySelector(".theory");
 const params = new URLSearchParams(window.location.search);
 const dirName = params.get("dir");
 const fileName = params.get("file");
+const day = params.get("day"); // fallback to Day 1
 
-console.log("Directory Name:", dirName);
-console.log("File Name:", fileName);
+console.log("Parsed Day:", day); //
 
-let filePath = `${ dirName }/${ fileName }`;
-console.log("File Path:", filePath);
+let filePath = `${dirName}/${fileName}`;
 
-// Fetch JSON data
+// Fetch JSON data for all days
 fetch(filePath)
   .then(res => {
-    if (!res.ok) {
-      throw new Error("Network response was not ok");
-    }
+    if (!res.ok) throw new Error("Network response was not ok");
     return res.json();
   })
-  .then(data => {
-    renderDayData(data);
-    console.log("Data:", data);
+  .then(days => {
+    const currentDay = days.find(d => d.day == day);
+    if (currentDay) {
+      renderDayData(currentDay);
+    } else {
+      throw new Error(`Day ${day} not found in the data.`);
+    }
   })
   .catch(err => {
     console.error("Caught error:", err);
+    theoryContainer.innerHTML = `<p style="color: red;">Error loading content: ${err.message}</p>`;
   });
 
 // Main render function
@@ -40,24 +42,15 @@ function renderDayData(data) {
   dayNo.textContent = "Day " + data.day;
 
   if (imgContainer && data.img) {
-    imgContainer.innerHTML = `<img src="${ data.img }" alt="Day ${ data.day } Image">`;
+    imgContainer.innerHTML = `<img src="${data.img}" alt="Day ${data.day} Image">`;
   }
 
   intro.textContent = data.intro || "No introduction available for this day.";
 
-  if (topicsList && data.topics) {
-    renderTopics(data.topics);
-  }
-
-  if (activityList && data.activity) {
-    renderActivities(data.activity);
-  }
-
-  if (theoryContainer && data.theory) {
-    renderTheory(data.theory);
-  } else {
-    console.warn("No theory data found or .theory container is missing.");
-  }
+  if (topicsList && data.topics) renderTopics(data.topics);
+  if (activityList && data.activity) renderActivities(data.activity);
+  if (theoryContainer && data.theory) renderTheory(data.theory);
+  else console.warn("No theory data found or .theory container is missing.");
 }
 
 // Render topics
@@ -88,11 +81,10 @@ function renderActivities(activities) {
   }
 }
 
-// Render theory content
+// Render theory
 function renderTheory(theory) {
   theoryContainer.innerHTML = "";
 
-  // Add <h2>Theory</h2> once at the top
   const h2 = document.createElement("h2");
   h2.textContent = "Theory";
   theoryContainer.appendChild(h2);
@@ -100,7 +92,6 @@ function renderTheory(theory) {
   if (typeof theory === "object") {
     for (const sectionTitle in theory) {
       const sectionContent = theory[sectionTitle];
-
       const sectionDiv = document.createElement("div");
       sectionDiv.classList.add("theory-section");
 
@@ -122,39 +113,36 @@ function renderTheory(theory) {
             "Mac Shortcut" in value &&
             "Description" in value
           ) {
-            // Handle shortcut table
+            // Shortcut table
             const table = document.createElement("table");
             table.classList.add("shortcut-table");
 
             const thead = document.createElement("thead");
             thead.innerHTML = `
-      <tr>
-        <th>Function</th>
-        <th>Windows Shortcut</th>
-        <th>Mac Shortcut</th>
-        <th>Description</th>
-      </tr>`;
+              <tr>
+                <th>Function</th>
+                <th>Windows Shortcut</th>
+                <th>Mac Shortcut</th>
+                <th>Description</th>
+              </tr>`;
             table.appendChild(thead);
 
             const tbody = document.createElement("tbody");
-
             for (const func in sectionContent) {
               const rowData = sectionContent[func];
               const tr = document.createElement("tr");
               tr.innerHTML = `
-        <td>${ func }</td>
-        <td>${ rowData["Windows Shortcut"] }</td>
-        <td>${ rowData["Mac Shortcut"] }</td>
-        <td>${ rowData["Description"] }</td>
-      `;
+                <td>${func}</td>
+                <td>${rowData["Windows Shortcut"]}</td>
+                <td>${rowData["Mac Shortcut"]}</td>
+                <td>${rowData["Description"]}</td>`;
               tbody.appendChild(tr);
             }
 
             table.appendChild(tbody);
             sectionDiv.appendChild(table);
-            break; // Exit loop after rendering the table
+            break;
           } else if (typeof value === "object") {
-            // Handle normal key-value object (like Windows/Mac platforms)
             const subHeading = document.createElement("h4");
             subHeading.textContent = key;
             sectionDiv.appendChild(subHeading);
@@ -162,13 +150,12 @@ function renderTheory(theory) {
             const ul = document.createElement("ul");
             for (const subKey in value) {
               const li = document.createElement("li");
-              li.innerHTML = `<strong>${ subKey }:</strong> ${ value[subKey] }`;
+              li.innerHTML = `<strong>${subKey}:</strong> ${value[subKey]}`;
               ul.appendChild(li);
             }
             sectionDiv.appendChild(ul);
           }
         }
-
       }
 
       theoryContainer.appendChild(sectionDiv);
@@ -178,6 +165,7 @@ function renderTheory(theory) {
   }
 }
 
+// Scroll spy and click highlight for nav list
 document.addEventListener("DOMContentLoaded", () => {
   const sections = ["topics", "theory", "activity"];
   const listItems = document.querySelectorAll(".idx-list li");
@@ -201,7 +189,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   window.addEventListener("scroll", onScroll);
 
-  // Optional: set active on click too
   document.querySelectorAll(".idx-list li a").forEach(link => {
     link.addEventListener("click", () => {
       listItems.forEach(li => li.classList.remove("active"));
