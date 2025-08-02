@@ -1,6 +1,6 @@
 let nextPageBtns = document.querySelectorAll('.nextPage');
 
-function renderModal(card, roomName) {
+function renderModal(card, title) {
     let container = card.parentElement;
     let body = container.parentElement;
     let h1 = body.childNodes[1];
@@ -32,7 +32,8 @@ function renderModal(card, roomName) {
     btnCont.appendChild(yesBtn);
     yesBtn.addEventListener("click", () => {
         let [skillName] = h1.innerText.split(" ");
-        window.location.href = `/Pages/${skillName}SkillRooms/${ roomName } Room.html`;
+        let [roomName] = title.split(" ");
+        window.location.href = `/Pages/${ skillName }_SkillRooms/${ roomName } Room.html`;
     })
 
     modalContent.appendChild(btnCont);
@@ -46,20 +47,21 @@ nextPageBtns.forEach(nextPageBtn => {
         let card = nextPageBtn.parentElement;
         let h2 = card.childNodes[3];
         let title = h2.innerText;
-        let [roomName] = title.split(" ");
 
         if (nextPageBtn.innerText == 'Join Room') {
             // jump to next room
-            renderModal(card, roomName);
+            renderModal(card, title);
         }
         else if (nextPageBtn.innerText == 'Explore') {
             // jump to next page
             window.location.href = `/Pages/${ title }.html`;
         }
-        else if(nextPageBtn.innerText == 'Check in') {
+        else if (nextPageBtn.innerText == 'Check in') {
             let dirName = ((window.location.pathname).split("_"))[0].split("/")[2] + "Data";
-            let fileName = roomName + ".json";
-            window.location.href = `/Pages/Day.html`;
+            let fileName = ((window.location.pathname).split("_"))[1].split("/")[1].split("%")[0];
+            fileName = fileName + ".json";
+
+            window.location.href = `/Pages/Day.html?dir=${encodeURIComponent(dirName)}&file=${encodeURIComponent(fileName)}`;
         }
     });
 });

@@ -1,7 +1,18 @@
 let h1 = document.querySelector("h1");
 let h2 = document.querySelector("h2");
 
-fetch('TechnologyData/keyboard.json') // Use relative path
+const params = new URLSearchParams(window.location.search);
+const dirName = params.get("dir");
+const fileName = params.get("file");
+
+console.log("Directory Name:", dirName);
+console.log("File Name:", fileName);
+
+let filePath = `${dirName}/${fileName}`; // Use relative path
+console.log("File Path:", filePath);
+
+
+fetch(`${dirName}/${fileName}`) // Use relative path
   .then(res => {
     if (!res.ok) {
       throw new Error("Network response was not ok");
@@ -16,3 +27,4 @@ fetch('TechnologyData/keyboard.json') // Use relative path
   .catch(err => {
     console.error("Caught error:", err);
   });
+
