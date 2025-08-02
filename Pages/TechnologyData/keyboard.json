@@ -1,0 +1,60 @@
+[
+    {
+        "day": 1,
+        "title": "Introduction & Essential Basics",
+        "img": "/assets/TechnologyImgs/keyboardImgs/1.jpg",
+        "intro": "Master essential keyboard shortcuts to improve efficiency, reduce mouse use, and build tech confidence.",
+        "topics": [
+            "What Are Keyboard Shortcuts?",
+            "Why Shortcuts Boost Productivity",
+            "Modifier Keys Overview",
+            "Essential Everyday Shortcuts"
+        ],
+        "theory": {
+            "What Are Keyboard Shortcuts?": "Keyboard shortcuts are combinations of keys that perform specific functions...",
+            "Why Shortcuts Boost Productivity": "Keyboard shortcuts improve productivity by minimizing the time...",
+            "Modifier Keys Overview": {
+                "Windows": {
+                    "Ctrl (Control)": "Commonly used for shortcuts like Ctrl + C (Copy), Ctrl + V (Paste).",
+                    "Alt (Alternate)": "Often used to access menus or special commands.",
+                    "Win (Windows key)": "Opens the Start menu or triggers system-level shortcuts.",
+                    "Shift": "Used to type uppercase letters or combine with other keys for extended commands."
+                },
+                "Mac": {
+                    "Command (⌘)": "Primary modifier for shortcuts (e.g., ⌘ + C = Copy).",
+                    "Option (⌥)": "Used for entering special characters or alternative functions.",
+                    "Control (⌃)": "Similar to right-click functionality when used with a mouse click.",
+                    "Shift": "Enables uppercase input or works with other keys to extend functionality."
+                }
+            },
+            "Essential Everyday Shortcuts": {
+                "Copy": {
+                    "Windows Shortcut": "Ctrl + C",
+                    "Mac Shortcut": "⌘ + C",
+                    "Description": "Copies selected text or item."
+                },
+                "Paste": {
+                    "Windows Shortcut": "Ctrl + V",
+                    "Mac Shortcut": "⌘ + V",
+                    "Description": "Pastes the copied content."
+                },
+                "Undo": {
+                    "Windows Shortcut": "Ctrl + Z",
+                    "Mac Shortcut": "⌘ + Z",
+                    "Description": "Reverses the last action."
+                },
+                "Save": {
+                    "Windows Shortcut": "Ctrl + S",
+                    "Mac Shortcut": "⌘ + S",
+                    "Description": "Saves the current document or project."
+                }
+            }
+        },
+        "activity": [
+            "Open a text editor.",
+            "Type a sentence (e.g., 'Keyboard shortcuts save time.').",
+            "Use basic shortcuts",
+            "Optional: Use Alt+Tab (Windows) or Cmd+Tab (Mac) to switch between open applications."
+        ]
+    }
+]
