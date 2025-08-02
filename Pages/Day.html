@@ -1,15 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day</title>
-    <link rel="stylesheet" href="/Style/DayStyle.css">
-</head>
-<body>
-    <h1></h1>
-    <h2></h2>
-    <div class="img"></div>
-    <script src="/JS/renderDayData.js"></script>
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Day</title>
+        <link rel="stylesheet" href="/Style/DayStyle.css">
+    </head>
+
+    <body>
+        <main>
+            <div class="container">
+                <div class="left"></div>
+                <div class="main-content">
+                    <h1><span class="dayNo"></span>: <span class="title"></span></h1>
+                    <div class="img"></div>
+                    <div class="day-content">
+                        <p class="intro"></p>
+                        <div class="topics" id="topics">
+                            <h2>Topics</h2>
+                            <ol type="1" class="topics-list">
+                                <!-- Topics will be dynamically inserted here -->
+                            </ol>
+                        </div>
+                        <div class="theory" id="theory">
+                            <!-- <h2>Theory</h2> -->
+                        </div>
+                        <div class="activity" id="activity">
+                            <h2>Activity</h2>
+                            <ol type="1" class="activity-list">
+                                <!-- Activities will be dynamically inserted here -->
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <nav class="content-idx">
+                        <p>On this Page</p>
+                        <ul class="idx-list">
+                            <li><a href="#topics">Topics</a></li>
+                            <li><a href="#theory">Theory</a></li>
+                            <li><a href="#activity">Activity</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </main>
+        <script src="/JS/renderDayData.js"></script>
+    </body>
+
 </html>
