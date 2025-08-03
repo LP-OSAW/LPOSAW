@@ -169,17 +169,15 @@ function renderTheory(theory) {
 document.addEventListener("DOMContentLoaded", () => {
   const sections = ["topics", "theory", "activity"];
   const listItems = document.querySelectorAll(".idx-list li");
+  // let current = "topics";
 
   function onScroll() {
-    let current = "";
-
     sections.forEach(id => {
       const el = document.getElementById(id);
       if (el && window.scrollY >= el.offsetTop - 150) {
         current = id;
       }
     });
-
     listItems.forEach(li => {
       const link = li.querySelector("a");
       const target = link?.getAttribute("href")?.substring(1);
