@@ -83,7 +83,7 @@ main::-webkit-scrollbar-thumb {
 
 .cards {
   position: relative;
-  width: 23rem;
+  width: 20rem;
   height: 26rem;
   background-color: #111729;
   border-radius: 10px;
