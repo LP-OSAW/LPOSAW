@@ -126,7 +126,9 @@ main::-webkit-scrollbar-thumb {
   height: 30%;
   font-size: 1.2rem;
   border-radius: 5px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0 1rem;
   font-family: "Poppins", sans-serif;
 }
@@ -150,6 +152,18 @@ main::-webkit-scrollbar-thumb {
   font-size: 1.2rem;
   margin-bottom: 0.7rem;
   cursor: pointer;
+}
+
+.check {
+  display: none;
+}
+
+.cards button:hover .check {
+  display: block;
+}
+
+.cards button:hover .day {
+  display: none;
 }
 
 .lock {
