@@ -8,8 +8,10 @@
 body,
 html {
     width: 100%;
-    background-color: #080b14;
-    color: white;
+    /* background-color: #080b14; */
+    /* color: white; */
+    background-color: #F9FAFB;
+
     font-family: 'Poppins', sans-serif;
     padding-bottom: 10rem;
 }
@@ -45,7 +47,11 @@ main {
 
 .content-idx {
     padding: 1.75rem;
-    background-color: #111729;
+    /* background-color: #111729;   */
+    background-color: #fff;
+    box-shadow: 0 10px 25px -5px rgba(79, 70, 229, 0.2);
+
+
     border-radius: 2rem;
     position: sticky;
     top: 1rem;
@@ -54,7 +60,9 @@ main {
 .content-idx p {
     font-size: 0.85rem;
     font-weight: 600;
-    color: #f0f0f0;
+    /* color: #f0f0f0; */
+    color: #1F2937;
+
     margin-bottom: 1rem;
     text-transform: uppercase;
 }
@@ -73,8 +81,7 @@ main {
     padding-left: 39px;
     padding-bottom: 2px;
     margin-bottom: 8px;
-    margin-left: -3px;
-    color: #f0f0f0;
+    margin-left: -3px;   
     white-space: nowrap;
     line-height: 1.375rem;
 }
@@ -82,7 +89,9 @@ main {
 .idx-list li a {
     font-size: 0.85rem;
     text-decoration: none;
-    color: #f0f0f0;
+    /* color: #f0f0f0; */
+    color: #1F2937;
+
     opacity: 0.6;
 }
 
@@ -102,7 +111,7 @@ main {
     left: 0;
     width: 1px;
     height: calc(100% - 8px);
-    background-color: #ccc;
+    background-color: #7a7979;
     z-index: 0;
     opacity: 0.5;
 }
@@ -123,7 +132,9 @@ main {
 
 /* Show badge on active section */
 .idx-list li.active::before {
-    background-color: #007bff;
+    /* background-color: #007bff; */
+    background-color: #4F46E5;
+
     /* badge color when active */
 }
 
@@ -139,7 +150,7 @@ main {
 
 h1 {
     font-size: 2rem;
-    color: #f0f0f0;
+    color: #1F2937;
     margin-bottom: 0.5rem;
     word-spacing: 0.2rem;
 }
@@ -147,15 +158,13 @@ h1 {
 .main-content .img {
     width: 100%;
     height: auto;
-    background-color: #111729;
-    border-radius: 10px;
     overflow: hidden;
 }
 
 .main-content .img img {
     width: 100%;
     height: auto;
-    display: block;
+    /* display: block; */
     border-radius: 10px;
 }
 
@@ -165,21 +174,22 @@ h1 {
     flex-direction: column;
     gap: 1.5rem;
     border: 3px solid #111729;
+    /* border: 3px solid #4F46E5; */
     border-radius: 2rem;
 }
 
 .main-content .day-content h2 {
     font-size: 1.2rem;
-    color: #f0f0f0;
+    color: #1F2937;
     margin-bottom: 1rem;
 }
 
 .main-content .day-content p.intro {
     font-size: 1rem;
-    color: #f0f0f0;
+    color: #1F2937;
     line-height: 1.6rem;
     opacity: 0.8;
-    background-color: #111729;
+    background-color: #ffffff;
     padding: 1rem;
     border-radius: 1rem;
 }
@@ -189,27 +199,35 @@ h1 {
     flex-direction: column;
     gap: 1.5rem;
     padding: 1.5rem;
-    background-color: #111729;
+    /* background-color: #111729; */
+    background-color: #fff;
     border-radius: 1rem;
-    border: 2px solid #007bff98;
+    border: 2px solid #4e46e589;
+    /* border: 2px solid #007bff98; */
 }
 
 .main-content .day-content .theory h3 {
     font-size: 1.1rem;
-    color: #f0f0f0;
+    /* color: #f0f0f0; */
+    color: #1F2937;
+
     margin-bottom: 0.5rem;
 }
 
 .main-content .day-content .theory h4 {
     font-size: 1rem;
-    color: #f0f0f0;
+    /* color: #f0f0f0; */
+    color: #1F2937;
+
     margin: 0.8rem 0;
     font-weight: 500;
 }
 
 .main-content .day-content .theory p {
     font-size: 0.95rem;
-    color: #f0f0f0;
+    /* color: #f0f0f0; */
+    color: #6B7280;
+
     line-height: 1.6rem;
     opacity: 0.8;
 }
@@ -217,7 +235,9 @@ h1 {
 .main-content .day-content .theory ul {
     list-style: circle;
     padding-left: 1.5rem;
-    color: #f0f0f0;
+    /* color: #f0f0f0; */
+    color: #6B7280;
+
     margin-top: 0.5rem;
 }
 
@@ -230,8 +250,11 @@ h1 {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1rem;
-    background-color: #111729;
-    color: #f0f0f0;
+    /* background-color: #111729; */
+    background-color: #fff;
+    /* color: #f0f0f0; */
+    color: #6B7280;
+
     overflow: hidden;
     font-size: 0.95rem;
 }
@@ -239,7 +262,8 @@ h1 {
 .shortcut-table th,
 .shortcut-table td {
     padding: 0.75rem 1rem;
-    border: 2px solid #007bff5e;
+    /* border: 2px solid #007bff5e; */
+    border: 2px solid #4e46e55b;
     text-align: left;
 }
 
@@ -254,16 +278,19 @@ h1 {
 }
 
 .shortcut-table th {
-    color: #fff;
+    /* color: #fff; */
+    color: #1F2937;
+
     font-weight: 600;
 }
 
 ol {
     list-style: none;
-    border-left: 5px solid #007bff;
+    border-left: 5px solid #4F46E5;
+    /* border-left: 5px solid #007bff; */
     border-radius: 0.5rem;
     padding: 1rem;
-    background-color: #111729;
+    background-color: #e3e3e37b;
     counter-reset: my-counter;
 }
 
@@ -271,7 +298,9 @@ ol li {
     counter-increment: my-counter;
     position: relative;
     font-size: 1rem;
-    color: #f0f0f0;
+    /* color: #f0f0f0; */
+    color: #6B7280;
+
     line-height: 2.5rem;
     padding-left: 2.5rem;
 }
@@ -284,7 +313,9 @@ ol li::before {
     width: 1.8rem;
     height: 1.8rem;
     line-height: 1.8rem;
-    background-color: #007bff;
+    /* background-color: #007bff; */
+    background-color: #4F46E5;
+
     color: #fff;
     font-weight: bold;
     text-align: center;
