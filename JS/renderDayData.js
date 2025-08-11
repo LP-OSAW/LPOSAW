@@ -208,5 +208,5 @@ window.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
       preloader.style.display = 'none';
     }, 500);
-  }, 5000);
+  }, 3000);
 });

@@ -47,17 +47,17 @@ html {
   background: #4F46E5;
   border-radius: 4px;
   transform-origin: left;
-  animation: flip 1.6s ease-in-out infinite;
+  animation: flip 1.8s ease-in-out infinite;
 }
 
 .book .page:nth-child(2) {
   background: #6C63FF;
-  animation-delay: 0.2s;
+  animation-delay: 0.5s;
 }
 
 .book .page:nth-child(3) {
   background: #807BFF;
-  animation-delay: 0.4s;
+  animation-delay: 0.7s;
 }
 
 @keyframes flip {
