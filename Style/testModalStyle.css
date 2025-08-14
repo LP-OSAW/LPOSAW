@@ -117,10 +117,24 @@ label {
 
 /* State styles */
 .unanswered {
-    border-left: 4px solid #fbbc04;
-    background-color: #fffaf1;
+    border: 2px solid red;
     border-radius: 8px;
+    margin: 0.5rem 0;
 }
+
+.unanswered-notice {
+    color: red;
+    font-size: 0.7rem;
+    margin-top: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.unanswered-notice i {
+    font-size: 1.2rem;
+}
+
 .option-correct {
     background-color: #0f9d5832;
     border-radius: 4px;

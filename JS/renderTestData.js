@@ -17,7 +17,7 @@ const fileNameBase = ((window.location.pathname).split("_")[1].split("/")[1].spl
 nextPageBtns.forEach(btn => {
     btn.addEventListener("click", () => {
         const day = parseInt(btn.childNodes[1].innerText.split(" ")[1], 10); // Extract Day number
-        const fileName = `${fileNameBase}.json`;
+        const fileName = `${ fileNameBase }.json`;
 
         // If Day 1 → Skip test and go directly to Day page
         if (day === 1) {
@@ -30,7 +30,7 @@ nextPageBtns.forEach(btn => {
         const testDir = dirName.slice(0, breakPoint) + "Test" + dirName.slice(breakPoint);
 
         // Fetch the corresponding test file
-        fetchData(`/Pages/${testDir}/${fileName}`, day);
+        fetchData(`/Pages/${ testDir }/${ fileName }`, day);
     });
 });
 
@@ -38,7 +38,7 @@ nextPageBtns.forEach(btn => {
 // Go to Day.html Page
 // -------------------
 function goToDayPage(day, file) {
-    window.location.href = `/Pages/Day.html?dir=${encodeURIComponent(dirName)}&file=${encodeURIComponent(file)}&day=${encodeURIComponent(day)}`;
+    window.location.href = `/Pages/Day.html?dir=${ encodeURIComponent(dirName) }&file=${ encodeURIComponent(file) }&day=${ encodeURIComponent(day) }`;
 }
 
 // -----------------
@@ -52,7 +52,7 @@ function fetchData(filePath, day) {
 
             // If test not found or empty → Go directly to Day page
             if (!currentDay || !Array.isArray(currentDay.test) || currentDay.test.length === 0) {
-                goToDayPage(day, `${fileNameBase}.json`);
+                goToDayPage(day, `${ fileNameBase }.json`);
                 return;
             }
 
@@ -81,7 +81,7 @@ function renderTest(currentDay) {
     testContent.append(cancelBtn);
 
     const h1 = document.createElement("h1");
-    h1.textContent = `Day ${currentDay.day - 1} - Short Test`;
+    h1.textContent = `Day ${ currentDay.day - 1 } - Short Test`;
     testContent.append(h1);
 
     const form = document.createElement("form");
@@ -92,7 +92,7 @@ function renderTest(currentDay) {
 
         const qP = document.createElement("p");
         qP.className = "qs";
-        qP.textContent = `${i + 1}. ${q.question}`;
+        qP.textContent = `${ i + 1 }. ${ q.question }`;
         qDiv.append(qP);
 
         const optDiv = document.createElement("div");
@@ -104,7 +104,7 @@ function renderTest(currentDay) {
 
             const input = document.createElement("input");
             input.type = "radio";
-            input.name = `q${i + 1}`;
+            input.name = `q${ i + 1 }`;
             input.value = key;
 
             label.append(input, val);
@@ -140,38 +140,47 @@ function renderTest(currentDay) {
 // ----------------
 function handleSubmit(currentDay, form, submitBtn) {
     const unanswered = [];
-    form.querySelectorAll(".questions").forEach(q => q.classList.remove("unanswered"));
+    form.querySelectorAll(".questions").forEach(q => {
+        q.classList.remove("unanswered")
+        q.querySelector(".unanswered-notice")?.remove();
+    });
 
     currentDay.test.forEach((_, i) => {
-        if (!form.querySelector(`input[name="q${i + 1}"]:checked`)) unanswered.push(i);
+        if (!form.querySelector(`input[name="q${ i + 1 }"]:checked`)) unanswered.push(i);
     });
 
     if (unanswered.length) {
-        unanswered.forEach(i => form.querySelectorAll(".questions")[i].classList.add("unanswered"));
+        unanswered.forEach(i => {
+            form.querySelectorAll(".questions")[i].classList.add("unanswered");
+            let notice = document.createElement("p");
+            notice.className = "unanswered-notice";
+            notice.innerHTML = `<i class="ri-error-warning-line"></i> Please answer this question.`;
+            form.querySelectorAll(".questions")[i].append(notice);
+        });
         return;
     }
 
     let score = 0;
 
     currentDay.test.forEach((q, i) => {
-        const selected = form.querySelector(`input[name="q${i + 1}"]:checked`).value.toUpperCase();
+        const selected = form.querySelector(`input[name="q${ i + 1 }"]:checked`).value.toUpperCase();
         const correct = getCorrectKey(q);
         const block = form.querySelectorAll(".questions")[i];
 
         if (selected === correct) {
             score++;
-            block.querySelector(`input[value="${correct}"]`)?.parentElement.classList.add("option-correct");
+            block.querySelector(`input[value="${ correct }"]`)?.parentElement.classList.add("option-correct");
         } else {
-            block.querySelector(`input[value="${correct}"]`)?.parentElement.classList.add("option-correct");
-            block.querySelector(`input[value="${selected}"]`)?.parentElement.classList.add("option-wrong");
+            block.querySelector(`input[value="${ correct }"]`)?.parentElement.classList.add("option-correct");
+            block.querySelector(`input[value="${ selected }"]`)?.parentElement.classList.add("option-wrong");
         }
     });
 
     const passMark = Math.ceil(currentDay.test.length * 0.6);
-    form.querySelector(".score").textContent = `Score: ${score}/${currentDay.test.length} - ${score >= passMark ? "✅ Passed" : "❌ Failed"}`;
+    form.querySelector(".score").textContent = `Score: ${ score }/${ currentDay.test.length } - ${ score >= passMark ? "✅ Passed" : "❌ Failed" }`;
 
     submitBtn.textContent = "Next Day";
-    submitBtn.onclick = () => goToDayPage(parseInt(currentDay.day), `${fileNameBase}.json`);
+    submitBtn.onclick = () => goToDayPage(parseInt(currentDay.day), `${ fileNameBase }.json`);
 }
 
 // ------------------------
