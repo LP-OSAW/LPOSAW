@@ -169,7 +169,7 @@ function renderTheory(theory) {
 document.addEventListener("DOMContentLoaded", () => {
   const sections = ["topics", "theory", "activity"];
   const listItems = document.querySelectorAll(".idx-list li");
-  // let current = "topics";
+  let current = "topics";
 
   function onScroll() {
     sections.forEach(id => {

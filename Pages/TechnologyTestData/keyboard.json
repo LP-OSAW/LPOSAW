@@ -1,0 +1,77 @@
+[
+  {
+    "day": 2,
+    "test": [
+      {
+        "question": "Which of the following best describes a keyboard shortcut?",
+        "options": {
+          "A": "A single key that performs all computer functions",
+          "B": "A combination of keys that performs a specific function",
+          "C": "A mouse action that opens a hidden menu",
+          "D": "A password for accessing a computer"
+        },
+        "answer": { "B": "A combination of keys that performs a specific function" }
+      },
+      {
+        "question": "On a Windows computer, which key combination is used to paste copied content?",
+        "options": {
+          "A": "Ctrl + C",
+          "B": "Ctrl + V",
+          "C": "Ctrl + Z",
+          "D": "Ctrl + S"
+        },
+        "answer": { "B": "Ctrl + V" }
+      },
+      {
+        "question": "On a Mac, what is the equivalent shortcut for Undo (Windows: Ctrl + Z)?",
+        "options": {
+          "A": "⌘ + C",
+          "B": "⌘ + V",
+          "C": "⌘ + Z",
+          "D": "⌘ + S"
+        },
+        "answer": { "C": "⌘ + Z" }
+      },
+      {
+        "question": "Which modifier key is used to open the Start Menu on Windows?",
+        "options": {
+          "A": "Ctrl",
+          "B": "Shift",
+          "C": "Win",
+          "D": "Alt"
+        },
+        "answer": { "C": "Win" }
+      },
+      {
+        "question": "Why do keyboard shortcuts boost productivity?",
+        "options": {
+          "A": "They make the keyboard glow in the dark",
+          "B": "They minimize the time spent using the mouse",
+          "C": "They automatically update all software",
+          "D": "They replace the need for typing altogether"
+        },
+        "answer": { "B": "They minimize the time spent using the mouse" }
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "test": []
+  },
+  {
+    "day": 3,
+    "test": []
+  },
+  {
+    "day": 4,
+    "test": []
+  },
+  {
+    "day": 5,
+    "test": []
+  },
+  {
+    "day": 6,
+    "test": []
+  }
+]
