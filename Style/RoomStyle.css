@@ -210,29 +210,20 @@ button:hover {
   z-index: 10;
 }
 
-.lock span {
-  font-size: 3rem;
-  transition: color 0.3s ease;
-  background-color: #4e46e53c;
-  padding: 0.5rem;
+.lock img {
+  width: 5.9rem;
+  height: 5.9rem;
   border-radius: 50%;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-  transform: scale(1);
-  width: 30%;
-  height: 22%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: #7ed0ec55;
+  padding: 1rem;
+  box-shadow: 
+    0 0 10px rgba(126, 208, 236, 0.333);
+  /* Center icon look */
+  object-fit: contain;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.lock span i {
-  color: #4F46E5;
-  transition: color 0.3s ease;
-  z-index: 1000;
-}
-
-.lock span i:hover {
-  transform: scale(1.1);
-  color: #4338CA;
+/* Hover effect for a 3D button feel */
+.lock img:hover {
+  transform: translateY(-5px) scale(1.05);
 }
