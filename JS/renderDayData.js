@@ -15,7 +15,7 @@ const day = params.get("day"); // fallback to Day 1
 
 console.log("Parsed Day:", day); //
 
-let filePath = `${dirName}/${fileName}`;
+let filePath = `${ dirName }/${ fileName }`;
 
 // Fetch JSON data for all days
 fetch(filePath)
@@ -28,12 +28,12 @@ fetch(filePath)
     if (currentDay) {
       renderDayData(currentDay);
     } else {
-      throw new Error(`Day ${day} not found in the data.`);
+      throw new Error(`Day ${ day } not found in the data.`);
     }
   })
   .catch(err => {
     console.error("Caught error:", err);
-    theoryContainer.innerHTML = `<p style="color: red;">Error loading content: ${err.message}</p>`;
+    theoryContainer.innerHTML = `<p style="color: red;">Error loading content: ${ err.message }</p>`;
   });
 
 // Main render function
@@ -42,7 +42,7 @@ function renderDayData(data) {
   dayNo.textContent = "Day " + data.day;
 
   if (imgContainer && data.img) {
-    imgContainer.innerHTML = `<img src="${data.img}" alt="Day ${data.day} Image">`;
+    imgContainer.innerHTML = `<img src="${ data.img }" alt="Day ${ data.day } Image">`;
   }
 
   intro.textContent = data.intro || "No introduction available for this day.";
@@ -132,10 +132,10 @@ function renderTheory(theory) {
               const rowData = sectionContent[func];
               const tr = document.createElement("tr");
               tr.innerHTML = `
-                <td>${func}</td>
-                <td>${rowData["Windows Shortcut"]}</td>
-                <td>${rowData["Mac Shortcut"]}</td>
-                <td>${rowData["Description"]}</td>`;
+                <td>${ func }</td>
+                <td>${ rowData["Windows Shortcut"] }</td>
+                <td>${ rowData["Mac Shortcut"] }</td>
+                <td>${ rowData["Description"] }</td>`;
               tbody.appendChild(tr);
             }
 
@@ -150,7 +150,7 @@ function renderTheory(theory) {
             const ul = document.createElement("ul");
             for (const subKey in value) {
               const li = document.createElement("li");
-              li.innerHTML = `<strong>${subKey}:</strong> ${value[subKey]}`;
+              li.innerHTML = `<strong>${ subKey }:</strong> ${ value[subKey] }`;
               ul.appendChild(li);
             }
             sectionDiv.appendChild(ul);
@@ -169,7 +169,7 @@ function renderTheory(theory) {
 document.addEventListener("DOMContentLoaded", () => {
   const sections = ["topics", "theory", "activity"];
   const listItems = document.querySelectorAll(".idx-list li");
-  // let current = "topics";
+  let current = "topics";
 
   function onScroll() {
     sections.forEach(id => {
@@ -193,4 +193,20 @@ document.addEventListener("DOMContentLoaded", () => {
       link.parentElement.classList.add("active");
     });
   });
+});
+
+// Preloader functionality 
+window.addEventListener('DOMContentLoaded', () => {
+  const preloader = document.getElementById('preloader');
+
+  // Show preloader for at least 5 seconds
+  setTimeout(() => {
+    // Hide preloader with fade out
+    preloader.style.opacity = '0';
+
+    // After transition (0.5s), remove preloader from DOM
+    setTimeout(() => {
+      preloader.style.display = 'none';
+    }, 500);
+  }, 3000);
 });
