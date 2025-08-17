@@ -35,7 +35,9 @@ function renderModal(card, title) {
     yesBtn.addEventListener("click", () => {
         let [categoryName] = h1.innerText.split(" ");
         let [roomName] = title.split(" ");
-        if (roomsJoined.length < 3) {
+        if (isRoomJoined) {
+            window.location.href = `/Pages/${ categoryName }_SkillRooms/${ roomName } Room.html`;
+        }else if (roomsJoined.length < 3) {
             roomsJoined.push({ categoryName, roomName });
             joinedRoomsStoretoLocalstorage();
             window.location.href = `/Pages/${ categoryName }_SkillRooms/${ roomName } Room.html`;
@@ -51,6 +53,18 @@ function renderModal(card, title) {
     body.appendChild(modalContainer);
 }
 
+// -----------------
+// Check room is joined
+// -----------------
+function isRoomJoined(roomName) {
+    roomsJoined.forEach(room => {
+        if (room === roomName) {
+            return true;
+        }
+    });
+    return false;
+}
+
 function renderWarningModal() {
     const body = document.querySelector("body");
 
@@ -61,7 +75,9 @@ function renderWarningModal() {
     modalContent.classList.add("modal-content");
 
     let p = document.createElement("p");
-    p.innerText = "You're already join three rooms!!!";
+    p.innerHTML = `<i class="ri-error-warning-line"></i>  You're already join three rooms!!!`;
+    p.style.color = "red";
+    p.style.fontSize = "1.2rem";
     modalContent.appendChild(p);
 
     let okBtn = document.createElement("button");
