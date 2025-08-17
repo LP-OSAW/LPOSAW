@@ -54,7 +54,7 @@ function isUnlocked() {
     let cardIdx = idxOfCard(card);
     let image = lockCard.children[0];
 
-    const standardTime = '1:25 PM';
+    const standardTime = '12:01 AM';
     let crrTime = currentTime();
 
     if (standardTime === crrTime) {
