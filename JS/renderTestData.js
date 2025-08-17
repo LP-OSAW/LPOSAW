@@ -14,12 +14,7 @@ const container = document.querySelector(".container");
 let checkedDays = [];
 
 // unlocked
-let unlockedCard = [
-    { cardIdx: 1, day: 1 },
-];
-
-// Collect all day navigation buttons (must be declared in your HTML)
-// const nextPageBtns = document.querySelectorAll(".day-btn");
+let unlockedCard = [{ cardIdx: 0, day: 1 }];
 
 // ---------------------------
 // Event Listener for Day Cards
@@ -40,60 +35,59 @@ nextPageBtns.forEach(btn => {
         const breakPoint = dirName.length - 4;
         const testDir = dirName.slice(0, breakPoint) + "Test" + dirName.slice(breakPoint);
 
-        // if (isUnlocked(day)) {
-        // Fetch the corresponding test file
         fetchData(`/Pages/${ testDir }/${ fileName }`, day);
-        // }
     });
 });
 
-// This function select all lockedDiv. check it's need to be unlock as time condition(12:00am), If yes then this fun will be add unlock the card and return true otherwise return false.
-
-
+// ----------------------
+// Unlock logic
+// ----------------------
 function isUnlocked() {
     // this card will be unlocked
-    const lockCard = document.querySelectorAll(".lock")[0];
+    const lockCard = document.querySelector(".lock");
+    if (!lockCard) return;
+
     const card = lockCard.parentNode;
 
-    const [key, day] = card.childNodes[1].childNodes[3].childNodes[5].childNodes[1].innerText.split(" ");
+    const day = card?.querySelector(".day").innerText.split(" ")[1];
 
     let cardIdx = idxOfCard(card);
     let image = lockCard.children[0];
 
-    const standardTime = '10:22 PM';
+    const standardTime = '12:54 PM';
     let crrTime = currentTime();
 
-    if (standardTime == crrTime) {
-        image.src = '/assets/unlock-svgrepo-com.svg';
+    if (standardTime === crrTime) {
+        image.src = "/assets/unlock-svgrepo-com.svg";
         image.alt = "unlock";
         image.addEventListener("click", () => {
             lockCard.classList.add("unlock");
             lockCard.classList.remove("lock");
         });
+        console.log(cardIdx, day)
         unlockedCard.push({ cardIdx, day });
         unlockedCardStoreInLocalStorage();
     }
 }
 
 function changeLockIcon(card) {
-    let image = (card.children[1]).children[0];
-    image.src = '/assets/unlock-svgrepo-com.svg';
+    let image = card.querySelector(".lock img");
+    if (!image) return;
+
+    image.src = "/assets/unlock-svgrepo-com.svg";
     image.alt = "unlock";
+
     image.addEventListener("click", () => {
-        const lockDiv = card.childNodes[3];
-        lockDiv.classList.add("unlock");
-        lockDiv.classList.remove("lock");
+        const lockDiv = card.querySelector(".lock");
+        if (lockDiv) {
+            lockDiv.classList.add("unlock");
+            lockDiv.classList.remove("lock");
+        }
     });
 }
 
 function idxOfCard(crd) {
-    let index = 0;
-    container.childNodes.forEach((card, idx) => {
-        if (card == crd) {
-            index = idx;
-        }
-    });
-    return index;
+    return Array.from(container.children).indexOf(crd);
 }
 
 // check previous day is checkin
@@ -103,12 +97,7 @@ function prevDayIsCheckin(fileName, currday) {
     if (checkedDays) {
         try {
             const parsed = JSON.parse(checkedDays);
-            // Merge all topics, including new user-created ones
-            parsed.forEach((obj) => {
-                if (obj.day == prevDay) {
-                    return true;
-                }
-            });
+            return parsed.some(obj => obj.day == prevDay);
         } catch (e) {
             console.error("Failed to parse saved cheched days", e);
         }
@@ -130,22 +119,20 @@ function currentTime() {
     return `${ hours }:${ minutes } ${ ampm }`;
 }
 
-// remove lock from checked card
+// ---------------------------
+// Remove lock from checked card
+// ---------------------------
 function checkedCards() {
     const lockedCards = document.querySelectorAll(".lock");
 
     lockedCards.forEach(lockedCard => {
         const card = lockedCard.parentNode;
-        const [key, day] = card.childNodes[1].childNodes[3].childNodes[5].childNodes[1].innerText.split(" ");
+        const day = card?.querySelector(".day").innerText.split(" ")[1];
 
-        checkedDays.forEach(obj => {
-            if (obj.day == day) {
-                lockedCard.classList.add("unlock");
-                lockedCard.classList.remove("lock");
-            }
-        })
-
-    })
+        if (checkedDays.some(obj => obj.day == day)) {
+            lockedCard.classList.replace("lock", "unlock");
+        }
+    });
 }
 
 // -------------------
@@ -316,26 +303,22 @@ function getCorrectKey(q) {
     return null;
 }
 
-
-
-
-// Track day checkin and store in localstorage
+// ---------------------------
+// Track day checkin and store
+// ---------------------------
 function checkin(fileName, day) {
-    checkedDays.push({ "day": day, "check": true });
+    checkedDays.push({ day, check: true });
     localStorage.setItem(`${ fileName } Checkin`, JSON.stringify(checkedDays));
 }
 
+// ---------------------------
 // unlock the card
+// ---------------------------
 function unlockedTheCard() {
-    let arrIdx = 0;
-    container.childNodes.forEach((card, cardIdx) => {
-        if (cardIdx % 2 != 0) {
-            if (arrIdx < unlockedCard.length) {
-                if (cardIdx == unlockedCard[arrIdx].cardIdx && arrIdx != 0) {
-                    changeLockIcon(card);
-                }
-            }
-            arrIdx++;
+    container.querySelectorAll(".cards").forEach((card, cardIdx) => {
+        const obj = unlockedCard.find(u => u.cardIdx === cardIdx);
+        if (obj && obj.day != 1) {
+            changeLockIcon(card);
         }
     })
 }
@@ -355,7 +338,7 @@ function loadUnlockedCard() {
             parsed.forEach((obj) => {
                 unlockedCard.push(obj);
                 removeDuplicates();
-            })
+            });
         } catch (e) {
             console.error("Failed to parse saved cheched days", e);
         }
@@ -386,7 +369,7 @@ function loadCheckinDays() {
         try {
             const parsed = JSON.parse(checkedDaysls);
             parsed.forEach((obj) => {
-                if (!checkedDays.includes(obj)) {
+                if (!checkedDays.some(d => d.day == obj.day)) {
                     checkedDays.push(obj);
                 }
             });
@@ -396,6 +379,9 @@ function loadCheckinDays() {
     }
 }
 
+// ---------------------------
+// Init calls
+// ---------------------------
 loadUnlockedCard();
 loadCheckinDays();
 unlockedTheCard();
