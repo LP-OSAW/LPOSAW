@@ -35,9 +35,9 @@ function renderModal(card, title) {
     yesBtn.addEventListener("click", () => {
         let [categoryName] = h1.innerText.split(" ");
         let [roomName] = title.split(" ");
-        if (isRoomJoined) {
+        if (isRoomJoined(roomName)) {
             window.location.href = `/Pages/${ categoryName }_SkillRooms/${ roomName } Room.html`;
-        }else if (roomsJoined.length < 3) {
+        } else if (roomsJoined.length < 3) {
             roomsJoined.push({ categoryName, roomName });
             joinedRoomsStoretoLocalstorage();
             window.location.href = `/Pages/${ categoryName }_SkillRooms/${ roomName } Room.html`;
@@ -57,12 +57,13 @@ function renderModal(card, title) {
 // Check room is joined
 // -----------------
 function isRoomJoined(roomName) {
+    let val = false;
     roomsJoined.forEach(room => {
-        if (room === roomName) {
-            return true;
+        if (room.roomName === roomName) {
+            val = true;
         }
     });
-    return false;
+    return val;
 }
 
 function renderWarningModal() {
