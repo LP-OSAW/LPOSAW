@@ -216,7 +216,7 @@ button:hover {
   border-radius: 50%;
   background-color: #7ed0ec55;
   padding: 1rem;
-  box-shadow: 
+  box-shadow:
     0 0 10px rgba(126, 208, 236, 0.333);
   /* Center icon look */
   object-fit: contain;
@@ -226,4 +226,8 @@ button:hover {
 /* Hover effect for a 3D button feel */
 .lock img:hover {
   transform: translateY(-5px) scale(1.05);
+}
+
+.unlock {
+  display: none;
 }
