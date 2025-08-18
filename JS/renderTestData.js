@@ -74,7 +74,7 @@ function changeLockIcon(card) {
     let image = card.querySelector(".lock img");
     if (!image) return;
 
-    image.src = "/assets/unlock-svgrepo-com.svg";
+    image.src = "/assets/unlock.svg";
     image.alt = "unlock";
 
     image.addEventListener("click", () => {
