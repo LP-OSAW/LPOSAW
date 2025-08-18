@@ -58,7 +58,7 @@ function isUnlocked() {
     let crrTime = currentTime();
 
     if (standardTime === crrTime) {
-        image.src = "/assets/unlock";
+        image.src = "/assets/unlock.svg";
         image.alt = "unlock";
         image.addEventListener("click", () => {
             lockCard.classList.add("unlock");
@@ -74,7 +74,7 @@ function changeLockIcon(card) {
     let image = card.querySelector(".lock img");
     if (!image) return;
 
-    image.src = "/assets/unlock-svgrepo-com.svg";
+    image.src = "/assets/unlock.svg";
     image.alt = "unlock";
 
     image.addEventListener("click", () => {
