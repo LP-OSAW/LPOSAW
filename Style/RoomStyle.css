@@ -63,15 +63,96 @@ main::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
-
 .leader-board {
   width: 23%;
   height: 100%;
   background-color: #fff;
   box-shadow: 0 10px 25px -5px rgba(79, 70, 229, 0.2);
   border-radius: 20px;
-  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 8px;
+  font-family: "Poppins", sans-serif;
 }
+
+/* Each player row */
+.player-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border-radius: 12px;
+  transition: background 0.2s;
+  margin-bottom: 8px;
+}
+
+/* Rank + name block */
+.player-info {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.player-rank {
+  width: 24px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.player-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.player-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+/* Score */
+.player-score {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+/* Highlights for top 3 */
+/* .rank-1 {
+  background: #fef9c3; */
+  /* yellow-100 */
+/* } */
+
+.rank-2 {
+  background: #f3f4f6;
+  /* gray-100 */
+}
+
+.rank-3 {
+  background: #fef3c7;
+  /* amber-100 */
+}
+
+/* Shimmer animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.rank-1 {
+  background: linear-gradient(90deg, #fef9c3 25%, #fbe470c5 50%, #fef9c3 75%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite linear;
+  border-radius: 12px;
+}
+
 
 .container {
   width: 75%;
