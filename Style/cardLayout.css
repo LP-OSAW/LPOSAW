@@ -63,7 +63,7 @@ h1 {
 }
 
 .container::-webkit-scrollbar-thumb {
-    background-color:  #a0a1a1;
+    background-color: #a0a1a1;
     border-radius: 10px;
 }
 
@@ -80,7 +80,7 @@ h1 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.cards:hover{
+.cards:hover {
     box-shadow: 0 10px 25px -5px rgba(209, 213, 219, 0.4);
     transform: translateY(-8px) scale(1.02);
 }
@@ -137,7 +137,6 @@ button:hover {
     background-color: #4338CA;
 }
 
-
 .card-content {
     height: 50%;
     width: 100%;
@@ -145,4 +144,46 @@ button:hover {
     gap: 0.7rem;
     flex-direction: column;
     padding: 0 1rem;
+}
+
+/* 425-> Mobile L */
+
+@media(max-width: 427px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .cards h2 {
+        font-size: 1.8rem;
+    }
+
+    .cards .content p {
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width: 330px) {
+    h1 {
+        font-size: 1.8rem;
+        margin-left: 1rem;
+    }
+
+    .cards {
+        width: 19rem;
+        height: 25rem;
+    }
+
+    .cards h2 {
+        font-size: 1.4rem;
+    }
+
+    .cards .content p {
+        font-size: 0.85rem;
+    }
+
+    button {
+        width: 50%;
+        font-size: 1rem;
+        line-height: 2.5rem;
+    }
 }

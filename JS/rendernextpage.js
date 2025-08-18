@@ -76,9 +76,8 @@ function renderWarningModal() {
     modalContent.classList.add("modal-content");
 
     let p = document.createElement("p");
+    p.classList.add("warning")
     p.innerHTML = `<i class="ri-error-warning-line"></i>  You're already join three rooms!!!`;
-    p.style.color = "red";
-    p.style.fontSize = "1.2rem";
     modalContent.appendChild(p);
 
     let okBtn = document.createElement("button");

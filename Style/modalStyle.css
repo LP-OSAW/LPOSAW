@@ -56,3 +56,21 @@
     color: white;
 
 }
+
+.modal-content .warning {
+    line-height: 2rem;
+    color: red;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Mobile */
+
+@media (max-width: 430px) {
+    .modal-content {
+        width: 80%;
+    }   
+    .modal-content .warning {
+        font-size: 0.8rem;
+    }
+}
