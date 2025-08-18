@@ -1,0 +1,26 @@
+[
+    {
+        "day": 1,
+        "title": "Record Yourself Reading Aloud",
+        "img": "/assets/LifestyleImgs/EffectiveImgs/1.jfif",
+        "intro": "Practice reading aloud and recording yourself to improve clarity, tone, and pacing in spoken communication.",
+        "topics": [
+            "Why Recording Helps Improvement",
+            "Clarity in Speech",
+            "Tone and Expression",
+            "Pacing and Rhythm"
+        ],
+        "theory": {
+            "Why Recording Helps Improvement": "Listening to your own voice recordings helps identify areas for growth in communication, such as filler words, pronunciation, and tone.",
+            "Clarity in Speech": "Clear pronunciation ensures that listeners easily understand your message without confusion.",
+            "Tone and Expression": "Tone adds emotional depth, while expression keeps the audience engaged and interested.",
+            "Pacing and Rhythm": "Balanced pacing avoids rushing or dragging, making your speech natural and effective."
+        },
+        "activity": [
+            "Choose a short passage, paragraph, or article to read aloud.",
+            "Record yourself using a phone, laptop, or recording app.",
+            "Play back the recording and listen carefully to your clarity, tone, and pacing.",
+            "Note one strength and one area to improve for your next practice."
+        ]
+    }
+]

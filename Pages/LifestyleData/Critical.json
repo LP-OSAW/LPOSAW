@@ -1,0 +1,26 @@
+[
+    {
+        "day": 1,
+        "title": "Question One Belief You Hold — Why Do You Believe It?",
+        "img": "/assets/LifestyleImgs/CriticalImgs/1.jfif",
+        "intro": "Explore one belief you hold deeply, reflect on its origins, supporting evidence, and potential counterarguments to build self-awareness.",
+        "topics": [
+            "Understanding Beliefs",
+            "Why We Form Beliefs",
+            "Evidence Supporting Beliefs",
+            "Challenging Beliefs with Counterarguments"
+        ],
+        "theory": {
+            "Understanding Beliefs": "Beliefs are personal convictions or accepted truths that guide how we see the world and make decisions.",
+            "Why We Form Beliefs": "Beliefs often stem from experiences, culture, education, or trusted sources that shape our perspectives.",
+            "Evidence Supporting Beliefs": "Strong beliefs are usually backed by experiences, facts, traditions, or repeated patterns that reinforce trust in them.",
+            "Challenging Beliefs with Counterarguments": "Exploring counterarguments helps test the strength of a belief and encourages open-mindedness, growth, and self-awareness."
+        },
+        "activity": [
+            "Pick a belief you hold strongly (e.g., 'Hard work always leads to success').",
+            "Write down the reasons you believe it and any supporting evidence.",
+            "Now list possible counterarguments or situations where it may not hold true.",
+            "Reflect: Did this activity strengthen your belief, modify it, or open new perspectives?"
+        ]
+    }
+]

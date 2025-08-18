@@ -1,4 +1,27 @@
-{
-    "day": 1,
-    "title": "Financial Dicipline"
-}
+[
+    {
+        "day": 1,
+        "title": "Track Every Expense",
+        "img": "/assets/LifestyleImgs/FinancialImgs/1.png",
+        "intro": "Build financial awareness by recording every rupee you spend to identify spending habits and improve money management.",
+        "topics": [
+            "Why Tracking Expenses Matters",
+            "Methods for Tracking Expenses",
+            "Using Apps vs. Manual Tracking",
+            "Gaining Insights from Expense Logs"
+        ],
+        "theory": {
+            "Why Tracking Expenses Matters": "Tracking expenses helps you understand where your money goes, reduces unnecessary spending, and builds financial discipline.",
+            "Methods for Tracking Expenses": "You can track expenses using notebooks, spreadsheets, or digital apps that automate categorization.",
+            "Using Apps vs. Manual Tracking": "Apps like Money View or Paytm simplify logging, while manual tracking offers more personal control and awareness.",
+            "Gaining Insights from Expense Logs": "Reviewing your expense log regularly highlights patterns, allowing you to plan budgets and cut avoidable costs."
+        },
+        "activity": [
+            "Start a daily expense log using a notebook, spreadsheet, or app.",
+            "Record every rupee you spend throughout the day.",
+            "Categorize expenses (e.g., food, travel, shopping, bills).",
+            "At the end of the day, review your list for insights.",
+            "Reflect: Did you spend on more wants or needs today?"
+        ]
+    }
+]
