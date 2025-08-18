@@ -1,5 +1,7 @@
 let nextPageBtns = document.querySelectorAll('.nextPage');
 
+let roomsJoined = [];
+
 function renderModal(card, title) {
     let container = (card.parentElement).parentElement;
     let body = container.parentElement;
@@ -31,12 +33,61 @@ function renderModal(card, title) {
     yesBtn.innerText = "Yes i read";
     btnCont.appendChild(yesBtn);
     yesBtn.addEventListener("click", () => {
-        let [skillName] = h1.innerText.split(" ");
+        let [categoryName] = h1.innerText.split(" ");
         let [roomName] = title.split(" ");
-        window.location.href = `/Pages/${ skillName }_SkillRooms/${ roomName } Room.html`;
-    })
+        if (isRoomJoined(roomName)) {
+            window.location.href = `/Pages/${ categoryName }_SkillRooms/${ roomName } Room.html`;
+        } else if (roomsJoined.length < 3) {
+            roomsJoined.push({ categoryName, roomName });
+            joinedRoomsStoretoLocalstorage();
+            window.location.href = `/Pages/${ categoryName }_SkillRooms/${ roomName } Room.html`;
+        } else {
+            console.log("Your Limit excide");
+            modalContainer.remove();
+            renderWarningModal();
+        }
+    });
 
     modalContent.appendChild(btnCont);
+    modalContainer.appendChild(modalContent);
+    body.appendChild(modalContainer);
+}
+
+// -----------------
+// Check room is joined
+// -----------------
+function isRoomJoined(roomName) {
+    let val = false;
+    roomsJoined.forEach(room => {
+        if (room.roomName === roomName) {
+            val = true;
+        }
+    });
+    return val;
+}
+
+function renderWarningModal() {
+    const body = document.querySelector("body");
+
+    let modalContainer = document.createElement("div");
+    modalContainer.classList.add("modal-container");
+
+    let modalContent = document.createElement("div");
+    modalContent.classList.add("modal-content");
+
+    let p = document.createElement("p");
+    p.innerHTML = `<i class="ri-error-warning-line"></i>  You're already join three rooms!!!`;
+    p.style.color = "red";
+    p.style.fontSize = "1.2rem";
+    modalContent.appendChild(p);
+
+    let okBtn = document.createElement("button");
+    okBtn.classList.add("yes-btn");
+    okBtn.innerText = "OK";
+    okBtn.addEventListener("click", () => {
+        modalContainer.remove();
+    });
+    modalContent.appendChild(okBtn);
     modalContainer.appendChild(modalContent);
     body.appendChild(modalContainer);
 }
@@ -55,15 +106,29 @@ nextPageBtns.forEach(nextPageBtn => {
             // jump to next page
             window.location.href = `/Pages/${ title }.html`;
         }
-        else if (nextPageBtn.innerText == 'Check in') {
-            let dirName = ((window.location.pathname).split("_"))[0].split("/")[2] + "Data";
-            let fileName = ((window.location.pathname).split("_"))[1].split("/")[1].split("%")[0];
-            let day = nextPageBtn.childNodes[1].innerText;
-            day = day.split(" ")[1];
-
-            fileName = fileName + ".json";
-
-            window.location.href = `/Pages/Day.html?dir=${encodeURIComponent(dirName)}&file=${encodeURIComponent(fileName)}&day=${encodeURIComponent(day)}`;
-        }
     });
 });
+
+// store joined rooms in localstorage
+function joinedRoomsStoretoLocalstorage() {
+    localStorage.setItem("Joined Room", JSON.stringify(roomsJoined));
+}
+
+// load joined roome from localstorage
+function loadJoinedRoomfromLocalstorage() {
+    const joinedRooms = localStorage.getItem("Joined Room");
+    if (joinedRooms) {
+        try {
+            const parse = JSON.parse(joinedRooms);
+            parse.forEach(obj => {
+                if (obj.roomName != roomsJoined.roomName) {
+                    roomsJoined.push(obj);
+                }
+            });
+        } catch (e) {
+            console.error("Failed to parse saved cheched days", e);
+        }
+    }
+}
+
+loadJoinedRoomfromLocalstorage();
