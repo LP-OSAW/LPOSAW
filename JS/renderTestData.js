@@ -54,11 +54,11 @@ function isUnlocked() {
     let cardIdx = idxOfCard(card);
     let image = lockCard.children[0];
 
-    const standardTime = '12:01 AM';
+    const standardTime = '10:10 AM';
     let crrTime = currentTime();
 
     if (standardTime === crrTime) {
-        image.src = "/assets/unlock-svgrepo-com.svg";
+        image.src = "/assets/unlock";
         image.alt = "unlock";
         image.addEventListener("click", () => {
             lockCard.classList.add("unlock");
