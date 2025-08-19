@@ -1,0 +1,62 @@
+[
+    {
+        "day": 1,
+        "title": "Pomodoro Technique",
+        "img": "/assets/LifeHacksImgs/WorkSmartly/1.png",
+        "intro": "Learn how to use the Pomodoro Technique for better focus and reduced burnout.",
+        "topics": [
+            "What is the Pomodoro Technique?",
+            "How it Boosts Focus and Reduces Burnout",
+            "When and Where to Apply It",
+            "Practical Pomodoro Routine"
+        ],
+        "theory": {
+            "What is the Pomodoro Technique?": "The Pomodoro Technique is a time management method developed by Francesco Cirillo. It uses a timer to break work into intervals, traditionally 25 minutes long, separated by short breaks.",
+            "How it Boosts Focus and Reduces Burnout": "By working in short, intense bursts followed by regular breaks, the Pomodoro Technique helps maintain concentration, reduces fatigue, and prevents burnout. It encourages deep focus while allowing time to recharge.",
+            "When and Where to Apply It": "This technique is best applied when working on tasks that require focus, such as studying, coding, writing, or problem-solving. It is useful at your desk, in the library, or any quiet environment where distractions can be minimized.",
+            "Practical Pomodoro Routine": {
+                "Step 1": "Choose a task you want to complete.",
+                "Step 2": "Set a timer for 25 minutes (one Pomodoro).",
+                "Step 3": "Work on the task until the timer rings.",
+                "Step 4": "Take a 5-minute break.",
+                "Step 5": "Repeat for 4 Pomodoros, then take a longer 15–30 minute break."
+            }
+        },
+        "activity": [
+            "Pick one small task you need to complete.",
+            "Set a timer and try completing one Pomodoro cycle.",
+            "After 4 Pomodoros, reflect on your productivity.",
+            "Optional: Adjust time intervals if needed."
+        ]
+    },
+    {
+        "day": 2,
+        "title": "The 2-Minute Rule",
+        "img": "/assets/LifeHacksImgs/WorkSmartly/2.png",
+        "intro": "Beat procrastination with the 2-minute rule: if something can be done in less than two minutes, do it immediately. This method keeps your mind clear, saves time, and builds momentum for bigger tasks.",
+        "topics": [
+            "What is the 2-Minute Rule?",
+            "Why Small Tasks Delay Bigger Goals",
+            "The Psychology of Momentum",
+            "Practical Tips for Using the Rule"
+        ],
+        "theory": {
+            "What is the 2-Minute Rule?": "The 2-minute rule is a simple productivity principle popularized by David Allen in his book 'Getting Things Done.' It says: if a task takes less than two minutes, handle it immediately instead of adding it to your to-do list. Examples include replying to a short email, putting dishes in the sink, or saving a file in the correct folder.",
+            "Why Small Tasks Delay Bigger Goals": "Tiny tasks may seem harmless, but when ignored, they pile up into mental clutter. A long list of unfinished small tasks makes it harder to focus on big goals because your brain feels overloaded. Handling these tasks right away keeps your schedule clean and prevents stress from small backlogs.",
+            "The Psychology of Momentum": "Completing quick tasks gives your brain an instant sense of progress, releasing dopamine (the motivation chemical). This creates a 'snowball effect'—once you start with easy wins, you naturally feel more energized to tackle larger and more demanding work. Momentum is the key to overcoming procrastination.",
+            "Practical Tips for Using the Rule": {
+                "1": "Use it for quick actions: replying to a text, putting clothes away, or organizing your desk.",
+                "2": "Don’t misuse it: if a task looks small but actually takes longer (like 'just check social media'), avoid it.",
+                "3": "Combine it with batching: finish several 2-minute tasks together during breaks to stay efficient.",
+                "4": "Use it as a warm-up: start your day with 2–3 small wins to build confidence before big tasks.",
+                "5": "Apply it digitally: rename files, delete spam emails, or close unnecessary tabs immediately."
+            }
+        },
+        "activity": [
+            "Write down 5 small tasks you’ve been delaying (e.g., sending a reminder, cleaning your desk, deleting unused files).",
+            "Apply the 2-minute rule: finish them immediately without delay.",
+            "After completing, reflect: Did it make your to-do list lighter? Did you feel more focused and less stressed?"
+        ]
+    }
+
+]

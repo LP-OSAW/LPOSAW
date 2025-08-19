@@ -1,0 +1,83 @@
+[
+  {
+    "day": 2,
+    "test": [
+      {
+        "question": "What does 'thoughtful gifting' primarily focus on?",
+        "options": {
+          "A": "Choosing the most expensive gift",
+          "B": "Matching the gift to the recipient's likes and needs",
+          "C": "Buying trendy items",
+          "D": "Giving the same gift to everyone"
+        },
+        "answer": {
+          "B": "Matching the gift to the recipient's likes and needs"
+        }
+      },
+      {
+        "question": "Why do thoughtful gifts often have more impact than expensive ones?",
+        "options": {
+          "A": "They are easier to carry",
+          "B": "They create lasting memories and show genuine care",
+          "C": "They save more money",
+          "D": "They look bigger in size"
+        },
+        "answer": {
+          "B": "They create lasting memories and show genuine care"
+        }
+      },
+      {
+        "question": "Which of the following is a good way to choose a thoughtful gift?",
+        "options": {
+          "A": "Guess randomly",
+          "B": "Focus only on price",
+          "C": "Observe hobbies and daily needs of the person",
+          "D": "Buy something you personally like"
+        },
+        "answer": {
+          "C": "Observe hobbies and daily needs of the person"
+        }
+      },
+      {
+        "question": "Which of these is an example of a budget-friendly thoughtful gift?",
+        "options": {
+          "A": "Luxury watch",
+          "B": "Handmade card",
+          "C": "Expensive smartphone",
+          "D": "Gold jewelry"
+        },
+        "answer": {
+          "B": "Handmade card"
+        }
+      },
+      {
+        "question": "Adding a handwritten note or customization to a gift is an example of:",
+        "options": {
+          "A": "Personal touch",
+          "B": "Overspending",
+          "C": "Random buying",
+          "D": "Impersonal gifting"
+        },
+        "answer": {
+          "A": "Personal touch"
+        }
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "test": []
+  },
+  {
+    "day": 4,
+    "test": []
+  },
+  {
+    "day": 5,
+    "test": []
+  },
+  {
+    "day": 6,
+    "test": []
+  }
+]

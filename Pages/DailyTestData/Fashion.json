@@ -1,0 +1,67 @@
+[
+  {
+    "day": 2,
+    "test": [
+      {
+        "question": "Why is it important to fold clothes properly?",
+        "options": {
+          "A": "It helps clothes dry faster",
+          "B": "It prevents wrinkles and keeps clothes in good shape",
+          "C": "It changes the color of clothes",
+          "D": "It makes clothes heavier"
+        },
+        "answer": {
+          "B": "It prevents wrinkles and keeps clothes in good shape"
+        }
+      },
+      {
+        "question": "Which of the following is a benefit of smart folding?",
+        "options": {
+          "A": "Reduces cupboard space",
+          "B": "Extends the life of clothes and reduces ironing",
+          "C": "Changes the size of clothes",
+          "D": "Makes clothes waterproof"
+        },
+        "answer": {
+          "B": "Extends the life of clothes and reduces ironing"
+        }
+      },
+      {
+        "question": "What should you always use as a base while folding clothes?",
+        "options": {
+          "A": "Any uneven surface",
+          "B": "A clean, flat surface",
+          "C": "A chair or stool",
+          "D": "The floor directly"
+        },
+        "answer": {
+          "B": "A clean, flat surface"
+        }
+      },
+      {
+        "question": "Which folding method is famous for standing clothes upright to save space?",
+        "options": {
+          "A": "Rolling Method",
+          "B": "Basic Flat Fold",
+          "C": "Marie Kondo Method",
+          "D": "Random Fold"
+        },
+        "answer": {
+          "C": "Marie Kondo Method"
+        }
+      },
+      {
+        "question": "What is the key step in the quick t-shirt folding hack?",
+        "options": {
+          "A": "Iron the t-shirt first",
+          "B": "Pinch the shoulder and midpoint, cross hands, grab hem, and uncross",
+          "C": "Roll it tightly like a sushi",
+          "D": "Fold only the sleeves"
+        },
+        "answer": {
+          "B": "Pinch the shoulder and midpoint, cross hands, grab hem, and uncross"
+        }
+      }
+    ]
+  }
+]

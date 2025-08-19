@@ -1,0 +1,51 @@
+[
+  {
+    "day": 1,
+    "title": "Fold Clothes Smartly",
+    "img": "/assets/LifeHacksImgs/FashionHacks/1.png",
+    "intro": "Learn how to fold shirts, kurtis, pants, and t-shirts neatly to avoid wrinkles and save space in your cupboard. Mastering folding skills makes your wardrobe organized and stress-free.",
+    "topics": [
+      "Why Fold Clothes Properly?",
+      "Benefits of Smart Folding",
+      "Folding Basics",
+      "Step-by-Step Guide",
+      "Popular Folding Techniques",
+      "Quick T-Shirt Folding Hack"
+    ],
+    "theory": {
+      "Why Fold Clothes Properly?": "Proper folding prevents wrinkles, keeps clothes in good shape, and saves time when choosing what to wear.",
+      "Benefits of Smart Folding": "Saves cupboard space, makes your wardrobe look organized, extends the life of your clothes, and reduces the need for ironing.",
+      "Folding Basics": {
+        "Flat Surface": "Always fold on a clean, flat surface for even folds.",
+        "Smooth Fabric": "Smooth out wrinkles with your hands before folding.",
+        "Consistent Size": "Aim to fold clothes into uniform sizes for easy stacking."
+      },
+      "Step-by-Step Guide": {
+        "Step 1": "Lay the shirt, kurti, pants, or t-shirt flat on a surface.",
+        "Step 2": "Fold the sleeves or sides inward neatly.",
+        "Step 3": "Fold the garment in half or thirds depending on cupboard size.",
+        "Step 4": "Tuck in edges to make the fold compact.",
+        "Step 5": "Stack or stand the folded clothes vertically for easy visibility."
+      },
+      "Popular Folding Techniques": {
+        "Basic Flat Fold": "Traditional method for stacking clothes flat in piles.",
+        "Marie Kondo Method": "Fold into rectangles and stand clothes upright to save maximum space.",
+        "Rolling Method": "Roll clothes tightly to avoid wrinkles and maximize suitcase or cupboard space."
+      },
+      "Quick T-Shirt Folding Hack": {
+        "Step 1": "Lay the t-shirt flat on a surface.",
+        "Step 2": "Pinch the shirt with one hand at the shoulder and the other at the midpoint.",
+        "Step 3": "Cross your hands and grab the hem, then uncross quickly.",
+        "Step 4": "Lift and fold the t-shirt into a neat rectangle in seconds.",
+        "Tip": "This Japanese 2-second t-shirt folding trick saves time and keeps piles neat."
+      }
+    },
+    "activity": [
+      "Choose 5 clothing items (shirts, kurtis, pants, or t-shirts).",
+      "Lay each item flat and fold using the step-by-step guide.",
+      "Try the Marie Kondo method for at least 2 items.",
+      "Practice the quick t-shirt folding hack for 2-3 t-shirts.",
+      "Observe how much space is saved in your cupboard."
+    ]
+  }
+]

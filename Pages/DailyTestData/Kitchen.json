@@ -1,0 +1,57 @@
+[
+  {
+    "day": 2,
+    "test": [
+      {
+        "question": "According to the theory, why do fresh herbs spoil quickly?",
+        "options": {
+          "A": "Because they are always too cold in the fridge",
+          "B": "Because they lose moisture and get exposed to too much air",
+          "C": "Because they are stored in plastic containers",
+          "D": "Because they are harvested too early"
+        },
+        "answer": { "B": "Because they lose moisture and get exposed to too much air" }
+      },
+      {
+        "question": "How long can herbs stay fresh if stored properly using this method?",
+        "options": {
+          "A": "1–2 days",
+          "B": "3–4 days",
+          "C": "1–2 weeks",
+          "D": "1 month"
+        },
+        "answer": { "C": "1–2 weeks" }
+      },
+      {
+        "question": "Which of the following materials is NOT listed as needed in the method?",
+        "options": {
+          "A": "Damp Paper Towel",
+          "B": "Ziplock Bag",
+          "C": "Fresh Herbs",
+          "D": "Aluminum Foil"
+        },
+        "answer": { "D": "Aluminum Foil" }
+      },
+      {
+        "question": "What should you do immediately after washing the herbs?",
+        "options": {
+          "A": "Chop them finely",
+          "B": "Pat them dry with a kitchen towel",
+          "C": "Put them directly in a ziplock bag",
+          "D": "Freeze them in ice cubes"
+        },
+        "answer": { "B": "Pat them dry with a kitchen towel" }
+      },
+      {
+        "question": "In Step 4 of the method, how should the ziplock bag be sealed?",
+        "options": {
+          "A": "Completely airtight with no gap",
+          "B": "Fully open to allow air in",
+          "C": "Almost completely, leaving a tiny gap for air circulation",
+          "D": "Sealed with tape"
+        },
+        "answer": { "C": "Almost completely, leaving a tiny gap for air circulation" }
+      }
+    ]
+  }
+]

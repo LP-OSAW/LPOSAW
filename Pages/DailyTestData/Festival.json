@@ -1,0 +1,83 @@
+[
+  {
+    "day": 2,
+    "test": [
+      {
+        "question": "Which material is commonly used to fill Rangoli designs with colors?",
+        "options": {
+          "A": "Watercolors",
+          "B": "Rice flour or colored powders",
+          "C": "Oil paints",
+          "D": "Charcoal"
+        },
+        "answer": {
+          "B": "Rice flour or colored powders"
+        }
+      },
+      {
+        "question": "Most Rangoli designs follow which type of symmetry?",
+        "options": {
+          "A": "Radial or mirror symmetry",
+          "B": "Asymmetry",
+          "C": "Horizontal only",
+          "D": "No symmetry"
+        },
+        "answer": {
+          "A": "Radial or mirror symmetry"
+        }
+      },
+      {
+        "question": "Which optional tool can help beginners create complex Rangoli shapes easily?",
+        "options": {
+          "A": "Stencils",
+          "B": "Scissors",
+          "C": "Compass",
+          "D": "Ruler"
+        },
+        "answer": {
+          "A": "Stencils"
+        }
+      },
+      {
+        "question": "In the step-by-step guide, after drawing a dot grid, what should you do next?",
+        "options": {
+          "A": "Fill the shapes with colors immediately",
+          "B": "Connect the dots to form shapes or patterns",
+          "C": "Add decorative flowers",
+          "D": "Clean the surface again"
+        },
+        "answer": {
+          "B": "Connect the dots to form shapes or patterns"
+        }
+      },
+      {
+        "question": "Rangoli is often made during festivals to:",
+        "options": {
+          "A": "Scare away animals",
+          "B": "Welcome positivity and creativity",
+          "C": "Mark property boundaries",
+          "D": "Replace floor tiles"
+        },
+        "answer": {
+          "B": "Welcome positivity and creativity"
+        }
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "test": []
+  },
+  {
+    "day": 4,
+    "test": []
+  },
+  {
+    "day": 5,
+    "test": []
+  },
+  {
+    "day": 6,
+    "test": []
+  }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "day": 1,
+        "title": "Keep Herbs Fresh with a Ziplock Bag",
+        "img": "/assets/LifeHacksImgs/KitchenHacks/1.png",
+        "intro": "Discover an easy way to keep herbs like coriander or parsley fresh for longer using a damp paper towel and a ziplock bag. This prevents wilting and reduces waste.",
+        "topics": [
+            "Why Herbs Dry Out Quickly",
+            "Benefits of Storing Herbs Properly",
+            "Materials You Need",
+            "Step-by-Step: Ziplock Bag Method"
+        ],
+        "theory": {
+            "Why Herbs Dry Out Quickly": "Fresh herbs spoil because they lose moisture and get exposed to too much air in the fridge. Without protection, they wilt or rot within a few days.",
+            "Benefits of Storing Herbs Properly": "Proper storage keeps herbs fresh for up to 1–2 weeks, reduces waste, saves money, and ensures you always have flavorful herbs ready for cooking.",
+            "Materials You Need": {
+                "Damp Paper Towel": "Maintains the right humidity so herbs don't dry out.",
+                "Ziplock Bag": "Creates a sealed environment to keep herbs fresher for longer.",
+                "Fresh Herbs (Coriander, Parsley, Mint)": "Any soft, leafy herbs that usually wilt quickly."
+            },
+            "Step-by-Step: Ziplock Bag Method": {
+                "Step 1": 
+                    "Take fresh herbs (like coriander or parsley) and wash gently.",
+            
+                "Step 2": 
+                     "Pat them dry with a kitchen towel to remove excess water.",
+                
+                "Step 3": 
+                     "Wrap the herbs loosely in a slightly damp paper towel.",
+                
+                "Step 4": 
+                     "Place the wrapped herbs inside a ziplock bag and seal it almost completely, leaving a tiny gap for air circulation.",
+                
+                "Step 5": 
+                    "Store the ziplock bag in the fridge. Herbs will stay fresh for up to 1–2 weeks."
+                
+            }
+        },
+        "activity": [
+            "Take a small bunch of coriander or parsley.",
+            "Wash, dry, and wrap them in a damp paper towel.",
+            "Place the wrapped herbs into a ziplock bag.",
+            "Store in the fridge and check after 5 days to see the freshness.",
+            "Optional: Try comparing the same herb stored without this method."
+        ]
+    }
+]

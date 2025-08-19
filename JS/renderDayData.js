@@ -100,20 +100,22 @@ function renderTheory(theory) {
       sectionDiv.appendChild(heading);
 
       if (typeof sectionContent === "string") {
+        // Simple paragraph
         const para = document.createElement("p");
         para.textContent = sectionContent;
         sectionDiv.appendChild(para);
+
       } else if (typeof sectionContent === "object") {
         for (const key in sectionContent) {
           const value = sectionContent[key];
 
+          // 👉 Case 1: Shortcut Table
           if (
             typeof value === "object" &&
             "Windows Shortcut" in value &&
             "Mac Shortcut" in value &&
             "Description" in value
           ) {
-            // Shortcut table
             const table = document.createElement("table");
             table.classList.add("shortcut-table");
 
@@ -142,7 +144,31 @@ function renderTheory(theory) {
             table.appendChild(tbody);
             sectionDiv.appendChild(table);
             break;
-          } else if (typeof value === "object") {
+          }
+
+          // 👉 Case 2: Key–Value steps (Step 1, Step 2...)
+          else if (typeof value === "string" || (typeof value === "object" && "instruction" in value)) {
+            const ul = document.createElement("ul");
+
+            for (const stepKey in sectionContent) {
+              const li = document.createElement("li");
+              let stepValue = sectionContent[stepKey];
+
+              if (typeof stepValue === "object" && "instruction" in stepValue) {
+                li.innerHTML = `<strong>${ stepKey }:</strong> ${ stepValue.instruction }`;
+              } else {
+                li.innerHTML = `<strong>${ stepKey }:</strong> ${ stepValue }`;
+              }
+
+              ul.appendChild(li);
+            }
+
+            sectionDiv.appendChild(ul);
+            break;
+          }
+
+          // 👉 Case 3: Nested objects (sub-sections)
+          else if (typeof value === "object") {
             const subHeading = document.createElement("h4");
             subHeading.textContent = key;
             sectionDiv.appendChild(subHeading);
@@ -164,6 +190,7 @@ function renderTheory(theory) {
     theoryContainer.textContent = "No detailed theory available.";
   }
 }
+
 
 // Scroll spy and click highlight for nav list
 document.addEventListener("DOMContentLoaded", () => {

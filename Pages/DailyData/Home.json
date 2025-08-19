@@ -1,0 +1,45 @@
+[
+  {
+    "day": 1,
+    "title": "Puzzle Piece Art Hack",
+    "img": "/assets/LifeHacksImgs/HomeDecoration/1.jpeg",
+    "intro": "Learn how to reuse old jigsaw puzzle pieces to create textured, abstract canvas art. A fun and eco-friendly DIY idea to decorate your walls.",
+    "topics": [
+      "Why Reuse Puzzle Pieces?",
+      "Benefits of Puzzle Wall Art",
+      "Materials Needed",
+      "Step-by-Step Guide",
+      "Creative Ideas"
+    ],
+    "theory": {
+      "Why Reuse Puzzle Pieces?": "Unfinished or old puzzles often remain unused. By turning them into art, you reduce waste and add creativity to your home décor.",
+      "Benefits of Puzzle Wall Art": "This DIY is eco-friendly, cost-effective, and allows personalization. It creates stylish textured artwork and gives new life to leftover materials.",
+      "Materials Needed": {
+        "1": "Old puzzle pieces",
+        "2": "Canvas or sturdy cardboard",
+        "3": "Acrylic paints (1–2 colors recommended)",
+        "4": "Paintbrushes",
+        "5": "Craft glue"
+      },
+      "Step-by-Step Guide": {
+        "Step 1": "Collect unused puzzle pieces.",
+        "Step 2": "Paint them with acrylics (choose solid colors or patterns).",
+        "Step 3": "Let the painted pieces dry.",
+        "Step 4": "Arrange pieces on canvas in an abstract or geometric design.",
+        "Step 5": "Glue them in place and let dry fully.",
+        "Step 6": "Hang your puzzle wall art to decorate your room."
+      },
+      "Creative Ideas": {
+        "Abstract Patterns": "Scatter pieces randomly for a textured abstract effect.",
+        "Mosaic Style": "Use multiple colors to create a vibrant, mosaic look.",
+        "Layered Texture": "Overlap pieces to make a 3D textured artwork."
+      }
+    },
+    "activity": [
+      "Gather leftover puzzle pieces and a canvas.",
+      "Paint the pieces in 1–2 chosen colors.",
+      "Arrange and glue them into an abstract design.",
+      "Optional: Try mosaic or layered style for extra creativity."
+    ]
+  }
+]

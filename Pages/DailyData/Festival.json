@@ -1,0 +1,40 @@
+[
+  {
+    "day": 1,
+    "title": "Introduction & Basic Rangoli Techniques",
+    "img": "/assets/LifeHacksImgs/FestivalHacks/1.png",
+    "intro": "Learn the basics of Rangoli art using simple dot patterns, symmetry, and easy techniques to create professional-looking designs at home or for events.",
+    "topics": [
+      "What is Rangoli?",
+      "Importance of Dot Patterns",
+      "Understanding Symmetry",
+      "Basic Tools & Materials",
+      "Step-by-Step Rangoli Guide"
+    ],
+    "theory": {
+      "What is Rangoli?": "Rangoli is a traditional Indian art form where patterns are created on the floor using colored powders, rice, or chalk. It is often used during festivals and celebrations to welcome positivity and creativity.",
+      "Importance of Dot Patterns": "Dot patterns form the foundation of Rangoli designs. Starting with a grid of dots allows you to create symmetrical and proportionate designs easily.",
+      "Understanding Symmetry": "Symmetry ensures that your Rangoli looks balanced and visually appealing. Most Rangoli designs follow radial or mirror symmetry.",
+      "Basic Tools & Materials": {
+        "Chalk or Pencil": "Used to mark dots or outline designs on the floor.",
+        "Rice Flour or Colored Powders": "Fills in the design with vibrant colors.",
+        "Stencils (Optional)": "Helps beginners create complex shapes with ease.",
+        "Brushes or Spoons": "Useful for spreading powders evenly and filling colors precisely."
+      },
+      "Step-by-Step Rangoli Guide": {
+        "Step 1": "Choose a clean, flat surface for your Rangoli design.",
+        "Step 2": "Mark a basic grid of dots using chalk or pencil (start with 4-dot patterns for beginners).",
+        "Step 3": "Connect the dots to form basic geometric shapes or patterns.",
+        "Step 4": "Fill the shapes with colored powders, rice, or sand carefully.",
+        "Step 5": "Refine edges and add additional decorative elements for detail."
+      }
+    },
+    "activity": [
+      "Draw a 4-dot pattern on the floor using chalk or pencil.",
+      "Create a simple geometric Rangoli design by connecting the dots.",
+      "Fill the design with rice flour, colored powders, or chalk colors.",
+      "Practice maintaining symmetry and even spacing between dots.",
+      "Take a picture of your Rangoli to track your improvement over time."
+    ]
+  }
+]

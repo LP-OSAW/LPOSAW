@@ -1,0 +1,42 @@
+[
+  {
+    "day": 1,
+    "title": "Thoughtful Gifting – Match Gift to Personality",
+    "img": "/assets/LifeHacksImgs/GiftingHacks/1.jpeg",
+    "intro": "Learn the art of mindful gifting by choosing presents that match someone’s personality, hobbies, or daily needs — proving that thoughtful gifts matter more than expensive ones.",
+    "topics": [
+      "What is Thoughtful Gifting?",
+      "Why It Matters",
+      "How to Match Gifts to Personality",
+      "Budget-Friendly Gift Ideas",
+      "Everyday Scenarios for Smart Gifting"
+    ],
+    "theory": {
+      "What is Thoughtful Gifting?": "Thoughtful gifting means choosing presents that show awareness of the other person’s likes, hobbies, or needs. It’s about making the recipient feel seen and valued rather than focusing on price.",
+      "Why It Matters": "Thoughtful gifts strengthen relationships, create lasting memories, and show genuine care. Even small, useful items often make a bigger impact than expensive, impersonal ones.",
+      "How to Match Gifts to Personality": {
+        "Observation": "Pay attention to what the person talks about, enjoys, or needs in daily life.",
+        "Interests & Hobbies": "Choose gifts related to their favorite activities (e.g., books for a reader, sports gear for an athlete).",
+        "Practical Needs": "Think of what could make their life easier or more comfortable (e.g., a good notebook for a student).",
+        "Personal Touch": "Adding a handwritten note or customization makes even a small gift feel special."
+      },
+      "Budget-Friendly Gift Ideas": {
+        "Handmade Items": "DIY crafts, baked goods, or handwritten notes.",
+        "Useful Everyday Tools": "Keychains, stationery, or eco-friendly bottles.",
+        "Experience-Based": "A playlist, a recommendation, or shared time instead of a physical object.",
+        "Personalized Touch": "Photo prints, small customized accessories, or memory jars."
+      },
+      "Everyday Scenarios for Smart Gifting": {
+        "For Friends": "A favorite snack, journal, or a quirky keychain.",
+        "For Family": "A framed family photo, a recipe book, or something for the home.",
+        "For Colleagues": "Desk organizers, plants, or motivational stationery."
+      }
+    },
+    "activity": [
+      "List three people you often give gifts to (friend, family, colleague).",
+      "Write down one thoughtful gift idea for each based on their personality or needs.",
+      "Optional: Add a personal touch (a small note, wrapping, or customization).",
+      "Reflect on how the recipient might feel receiving something that matches their personality."
+    ]
+  }
+]

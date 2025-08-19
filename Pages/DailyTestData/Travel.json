@@ -1,0 +1,83 @@
+[
+  {
+    "day": 2,
+    "test": [
+      {
+        "question": "What is the main reason to repurpose leftover soap and candle wax?",
+        "options": {
+          "A": "To make them smell stronger",
+          "B": "To reduce waste and create useful travel items",
+          "C": "To sell them in markets",
+          "D": "To use them as decoration"
+        },
+        "answer": {
+          "B": "To reduce waste and create useful travel items"
+        }
+      },
+      {
+        "question": "Which benefit makes soap coins especially useful for travelers?",
+        "options": {
+          "A": "They are heavy and long-lasting",
+          "B": "They are compact, lightweight, and hygienic",
+          "C": "They can be used as toothpaste",
+          "D": "They are cheaper than liquid soap"
+        },
+        "answer": {
+          "B": "They are compact, lightweight, and hygienic"
+        }
+      },
+      {
+        "question": "According to the safety precautions, how should soap or wax be melted?",
+        "options": {
+          "A": "On high heat to save time",
+          "B": "In a plastic container",
+          "C": "On low heat using heat-resistant containers",
+          "D": "Directly on an open flame"
+        },
+        "answer": {
+          "C": "On low heat using heat-resistant containers"
+        }
+      },
+      {
+        "question": "Which of these is a step in making soap coins?",
+        "options": {
+          "A": "Pour melted soap into silicone molds",
+          "B": "Dip coins in wax for shine",
+          "C": "Freeze soap bars before melting",
+          "D": "Add candle wax for fragrance"
+        },
+        "answer": {
+          "A": "Pour melted soap into silicone molds"
+        }
+      },
+      {
+        "question": "Which of the following is NOT listed as a candle wax hack?",
+        "options": {
+          "A": "Sealing plastic bags",
+          "B": "Patching small holes in gear",
+          "C": "Waterproofing matches",
+          "D": "Cooking food"
+        },
+        "answer": {
+          "D": "Cooking food"
+        }
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "test": []
+  },
+  {
+    "day": 4,
+    "test": []
+  },
+  {
+    "day": 5,
+    "test": []
+  },
+  {
+    "day": 6,
+    "test": []
+  }
+]

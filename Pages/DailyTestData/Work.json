@@ -1,0 +1,124 @@
+[
+  {
+    "day": 2,
+    "test": [
+      {
+        "question": "Who developed the Pomodoro Technique?",
+        "options": {
+          "A": "Elon Musk",
+          "B": "Francesco Cirillo",
+          "C": "Bill Gates",
+          "D": "Steve Jobs"
+        },
+        "answer": { "B": "Francesco Cirillo" }
+      },
+      {
+        "question": "How long is one traditional Pomodoro interval?",
+        "options": {
+          "A": "15 minutes",
+          "B": "20 minutes",
+          "C": "25 minutes",
+          "D": "30 minutes"
+        },
+        "answer": { "C": "25 minutes" }
+      },
+      {
+        "question": "What is the main purpose of taking short breaks in the Pomodoro Technique?",
+        "options": {
+          "A": "To check social media",
+          "B": "To maintain concentration and reduce fatigue",
+          "C": "To waste extra time",
+          "D": "To multitask"
+        },
+        "answer": { "B": "To maintain concentration and reduce fatigue" }
+      },
+      {
+        "question": "After how many Pomodoros should you take a longer 15–30 minute break?",
+        "options": {
+          "A": "2 Pomodoros",
+          "B": "3 Pomodoros",
+          "C": "4 Pomodoros",
+          "D": "5 Pomodoros"
+        },
+        "answer": { "C": "4 Pomodoros" }
+      },
+      {
+        "question": "Which of the following tasks is BEST suited for the Pomodoro Technique?",
+        "options": {
+          "A": "Studying or coding",
+          "B": "Sleeping",
+          "C": "Watching movies",
+          "D": "Cooking dinner"
+        },
+        "answer": { "A": "Studying or coding" }
+      }
+    ]
+  },
+ {
+    "day": 3,
+    "test": [
+      {
+        "question": "The 2-Minute Rule was popularized by which productivity expert?",
+        "options": {
+          "A": "Francesco Cirillo",
+          "B": "David Allen",
+          "C": "James Clear",
+          "D": "Tim Ferriss"
+        },
+        "answer": { "B": "David Allen" }
+      },
+      {
+        "question": "What does the 2-Minute Rule suggest you should do with tasks that take less than 2 minutes?",
+        "options": {
+          "A": "Add them to your to-do list",
+          "B": "Delegate them to someone else",
+          "C": "Complete them immediately",
+          "D": "Ignore them as unimportant"
+        },
+        "answer": { "C": "Complete them immediately" }
+      },
+      {
+        "question": "Why can ignoring small tasks become a problem?",
+        "options": {
+          "A": "They vanish automatically",
+          "B": "They pile up into mental clutter and cause stress",
+          "C": "They take less time later",
+          "D": "They don’t affect bigger goals"
+        },
+        "answer": { "B": "They pile up into mental clutter and cause stress" }
+      },
+      {
+        "question": "What chemical is released in the brain when you complete quick tasks, boosting motivation?",
+        "options": {
+          "A": "Adrenaline",
+          "B": "Cortisol",
+          "C": "Dopamine",
+          "D": "Serotonin"
+        },
+        "answer": { "C": "Dopamine" }
+      },
+      {
+        "question": "Which of the following is NOT a correct way to use the 2-Minute Rule?",
+        "options": {
+          "A": "Replying to a short email immediately",
+          "B": "Organizing your desk right away",
+          "C": "Spending 'just 2 minutes' on social media",
+          "D": "Deleting spam emails instantly"
+        },
+        "answer": { "C": "Spending 'just 2 minutes' on social media" }
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "test": []
+  },
+  {
+    "day": 5,
+    "test": []
+  },
+  {
+    "day": 6,
+    "test": []
+  }
+]

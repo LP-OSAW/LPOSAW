@@ -1,0 +1,37 @@
+[
+  {
+    "day": 1,
+    "title": "Melted Soap & Candle Combo",
+    "img": "/assets/LifeHacksImgs/TravelHacks/1.png",
+    "intro": "Learn how to repurpose leftover soap and candle wax into practical travel hacks. Create portable soap coins and use candle wax for quick sealing fixes.",
+    "topics": [
+      "Why Repurpose Soap & Candle Wax?",
+      "Benefits for Travelers",
+      "Safety & Precautions",
+      "Step-by-Step Soap Coin Making",
+      "Candle Wax Hacks"
+    ],
+    "theory": {
+      "Why Repurpose Soap & Candle Wax?": "Small leftover pieces of soap and candle wax often go unused. By melting and reshaping them, you reduce waste and create handy items for travel and emergencies.",
+      "Benefits for Travelers": "Soap coins are compact, lightweight, and hygienic for short trips. Candle wax doubles as a quick fix for sealing food bags, waterproofing gear, and even emergency light.",
+      "Safety & Precautions": "Always melt soap or wax on low heat to avoid burns. Use silicone molds or heat-resistant containers. Keep children supervised during the process.",
+      "Step-by-Step Soap Coin Making": {
+        "Step 1": "Collect leftover soap bars and cut them into small pieces.",
+        "Step 2": "Melt soap gently in a pan with a little water.",
+        "Step 3": "Pour into silicone molds or ice cube trays.",
+        "Step 4": "Let them cool and harden into small soap coins.",
+        "Step 5": "Store coins in a pouch or container for easy travel use."
+      },
+      "Candle Wax Hacks": {
+        "Seal Plastic Bags": "Melt a little wax and dab on the bag edge to seal it.",
+        "Patch Small Holes": "Apply melted wax to small holes in gear or fabric to create a temporary waterproof patch.",
+        "Waterproof Matches": "Dip match heads into melted wax to keep them dry during travel."
+      }
+    },
+    "activity": [
+      "Melt leftover soap bars and pour into molds to make portable soap coins.",
+      "Use melted candle wax to seal a small plastic bag.",
+      "Optional: Try waterproofing a matchstick with wax as a travel experiment."
+    ]
+  }
+]

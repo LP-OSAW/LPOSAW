@@ -1,0 +1,61 @@
+[
+  {
+    "day": 2,
+    "test": [
+      {
+        "question": "Why is it a good idea to reuse old puzzle pieces?",
+        "options": {
+          "A": "Because they are expensive to buy",
+          "B": "Because they reduce waste and can be turned into art",
+          "C": "Because they cannot be recycled",
+          "D": "Because they are easier to store"
+        },
+        "answer": { "B": "Because they reduce waste and can be turned into art" }
+      },
+      {
+        "question": "Which of the following is NOT listed as a required material for Puzzle Wall Art?",
+        "options": {
+          "A": "Old puzzle pieces",
+          "B": "Craft glue",
+          "C": "Acrylic paints",
+          "D": "Scissors"
+        },
+        "answer": { "D": "Scissors" }
+      },
+      {
+        "question": "What should you do immediately after painting the puzzle pieces?",
+        "options": {
+          "A": "Glue them to the canvas",
+          "B": "Arrange them in a design",
+          "C": "Let them dry completely",
+          "D": "Frame them"
+        },
+        "answer": { "C": "Let them dry completely" }
+      },
+      {
+        "question": "Which creative variation involves overlapping puzzle pieces for a 3D effect?",
+        "options": {
+          "A": "Abstract Patterns",
+          "B": "Mosaic Style",
+          "C": "Layered Texture",
+          "D": "Geometric Design"
+        },
+        "answer": { "C": "Layered Texture" }
+      },
+      {
+        "question": "What is one benefit of creating Puzzle Wall Art?",
+        "options": {
+          "A": "It automatically completes unfinished puzzles",
+          "B": "It is eco-friendly and cost-effective",
+          "C": "It requires expensive tools",
+          "D": "It cannot be customized"
+        },
+        "answer": { "B": "It is eco-friendly and cost-effective" }
+      }
+    ]
+  },
+  { "day": 3, "test": [] },
+  { "day": 4, "test": [] },
+  { "day": 5, "test": [] },
+  { "day": 6, "test": [] }
+]
