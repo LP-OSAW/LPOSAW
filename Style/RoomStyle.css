@@ -325,15 +325,16 @@ button:hover {
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 690px) {
   main {
     flex-direction: column;
+    align-items: center;
     padding: 1.5rem;
     gap: 10%;
   }
 
   .leader-board {
-    width: 100%;
+    width: 80%;
     height: 60%;
     overflow: auto;
   }
@@ -346,9 +347,25 @@ button:hover {
   h1 {
     font-size: 2rem;
   }
+
+  .cards {
+    height: 25rem;
+  }
 }
 
-@media(max-width: 380px) {
+@media(max-width: 530px) {
+  .leader-board {
+    width: 90%;
+    height: 50%;
+  }
+}
+
+@media(max-width: 390px) {
+  .leader-board {
+    width: 100%;
+    height: 40%;
+  }
+
   h1 {
     font-size: 1.8rem;
     margin-left: 1rem;
@@ -356,32 +373,32 @@ button:hover {
 }
 
 
-@media(max-width: 330px) {
-    h1 {
-        font-size: 1.4rem;
-        margin-left: 1rem;
-    }
+@media(max-width: 350px) {
+  h1 {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+  }
 
-    .cards {
-        width: 100%;
-        height: 25rem;
-    }
+  .cards {
+    width: 100%;
+    height: 25rem;
+  }
 
-    .card-content {
-      padding: 0.5rem;
-    }
+  .card-content {
+    padding: 0.5rem;
+  }
 
-    .cards h2 {
-        font-size: 1.2rem;
-    }
+  .cards h2 {
+    font-size: 1.2rem;
+  }
 
-    .cards .content p {
-        font-size: 0.85rem;
-    }
+  .cards .content p {
+    font-size: 0.85rem;
+  }
 
-    button {
-        width: 50%;
-        font-size: 1rem;
-        line-height: 2.5rem;
-    }
+  button {
+    width: 50%;
+    font-size: 1rem;
+    line-height: 2.5rem;
+  }
 }

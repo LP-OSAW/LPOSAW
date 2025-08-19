@@ -148,7 +148,7 @@ button:hover {
 
 /* 425-> Mobile L */
 
-@media(max-width: 427px) {
+@media(max-width: 530px) {
     h1 {
         font-size: 2rem;
     }
