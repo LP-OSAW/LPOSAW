@@ -23,5 +23,198 @@
             "At the end of the day, review your list for insights.",
             "Reflect: Did you spend on more wants or needs today?"
         ]
+    },
+
+    {
+        "day": 2,
+        "title": "Categorize Wants vs Needs",
+        "img": "/assets/LifestyleImgs/FinancialImgs/2.png",
+        "intro": "Learn to distinguish between essential needs and non-essential wants to build better financial awareness and control.",
+        "topics": [
+            "What Are Needs?",
+            "What Are Wants?",
+            "Why Categorizing Helps Financial Health",
+            "Examples of Needs vs Wants"
+        ],
+        "theory": {
+            "What Are Needs?": "Needs are essential expenses required for basic living, such as food, housing, healthcare, and utilities. They are necessary for survival and well-being.",
+            "What Are Wants?": "Wants are non-essential purchases that improve comfort, pleasure, or lifestyle but are not required for survival. Examples include dining out, entertainment, and luxury items.",
+            "Why Categorizing Helps Financial Health": "Separating wants from needs helps manage spending, prioritize essentials, and avoid overspending. It builds discipline and makes budgeting decisions clearer.",
+            "Examples of Needs vs Wants": {
+                "Needs": [
+                    "Groceries",
+                    "Rent or mortgage",
+                    "Electricity and water bills",
+                    "Transportation for work/school",
+                    "Basic healthcare and medicines"
+                ],
+                "Wants": [
+                    "Streaming subscriptions",
+                    "Designer clothing",
+                    "Eating at restaurants",
+                    "Gadgets and upgrades",
+                    "Vacations"
+                ]
+            }
+        },
+        "activity": [
+            "Review all your expenses from yesterday.",
+            "List them out clearly (e.g., lunch, bus ticket, coffee, movie).",
+            "Mark each expense as a 'Need' or a 'Want'.",
+            "Reflect: Did you spend more on wants or needs?",
+            "Optional: Write down one change you can make to reduce wants."
+        ]
+    },
+
+    {
+        "day": 3,
+        "title": "Set a Daily/Weekly Budget",
+        "img": "/assets/LifestyleImgs/FinancialImgs/3.png",
+        "intro": "Learn how to assign spending limits for each category to create a sustainable daily or weekly budget plan.",
+        "topics": [
+            "What Is a Budget?",
+            "Why Daily/Weekly Budgets Work",
+            "Common Spending Categories",
+            "Tips for Sticking to Your Budget"
+        ],
+        "theory": {
+            "What Is a Budget?": "A budget is a financial plan that allocates your income toward expenses, savings, and goals. It helps ensure you don’t overspend and provides clarity on where your money goes.",
+            "Why Daily/Weekly Budgets Work": "Breaking down spending into daily or weekly limits makes it easier to control expenses, adjust quickly, and avoid end-of-month financial stress.",
+            "Common Spending Categories": {
+                "Needs": [
+                    "Housing (rent, utilities)",
+                    "Groceries",
+                    "Transportation",
+                    "Healthcare"
+                ],
+                "Wants": [
+                    "Dining out",
+                    "Entertainment",
+                    "Shopping",
+                    "Subscriptions"
+                ],
+                "Savings & Goals": [
+                    "Emergency fund",
+                    "Investments",
+                    "Debt repayment",
+                    "Future plans (education, vacation)"
+                ]
+            },
+            "Tips for Sticking to Your Budget": [
+                "Track spending daily or weekly to stay accountable.",
+                "Use budgeting apps or a simple spreadsheet.",
+                "Prioritize needs before wants.",
+                "Review and adjust limits if necessary."
+            ]
+        },
+        "activity": [
+            "List your main spending categories (e.g., groceries, transport, dining, savings).",
+            "Assign a realistic spending limit for each category per day or per week.",
+            "Write down your total daily/weekly budget and compare it with your income.",
+            "Optional: Use a budgeting app or notebook to track limits and spending."
+        ]
+    },
+
+    {
+        "day": 4,
+        "title": "Research How to Save (UPI Cashback Apps)",
+        "img": "/assets/LifestyleImgs/FinancialImgs/4.png",
+        "intro": "Discover how UPI-based cashback and rewards apps can help you save money on daily transactions while making spending more rewarding.",
+        "topics": [
+            "What Are UPI Cashback Apps?",
+            "Why Cashback Can Boost Savings",
+            "Popular Cashback Platforms",
+            "Tips for Maximizing Cashback Benefits"
+        ],
+        "theory": {
+            "What Are UPI Cashback Apps?": "UPI cashback apps are digital platforms that provide small monetary rewards, points, or vouchers when you make payments through the Unified Payments Interface (UPI). They turn everyday transactions—like paying bills, shopping online, or sending money—into opportunities to save.",
+            "Why Cashback Can Boost Savings": "Cashback rewards accumulate over time and can either be redeemed directly as money in your account or used as discounts on future purchases. By consistently using these apps, even small amounts add up, which helps reduce overall spending without changing your lifestyle drastically.",
+            "Popular Cashback Platforms": {
+                "PhonePe": "Offers cashback on bill payments, mobile recharges, and shopping deals.",
+                "GPay": "Features scratch cards and rewards that provide instant cashback or vouchers.",
+                "Paytm": "Known for regular cashback on recharges, utility payments, and shopping via its marketplace.",
+                "Super.money": "Focuses on rewarding users with coins or cashback for frequent UPI usage.",
+                "CRED": "Rewards credit card bill payments with points, which can be redeemed for cashback, vouchers, or exclusive offers."
+            },
+            "Tips for Maximizing Cashback Benefits": [
+                "Compare offers across multiple apps before making a payment.",
+                "Use different apps for different categories (e.g., PhonePe for bills, CRED for credit card payments).",
+                "Watch for seasonal promotions like festive offers or weekend deals.",
+                "Redeem cashback or rewards regularly to avoid expiry.",
+                "Avoid overspending just to earn cashback—treat it as a bonus, not an excuse."
+            ]
+        },
+        "activity": [
+            "Open each of the apps: PhonePe, GPay, Paytm, Super.money, and CRED.",
+            "Search for their current cashback offers (e.g., bill payments, recharges, shopping).",
+            "Make a note of which platform offers the best deal for each type of transaction you do often.",
+            "Optional: Try one small payment in each app and track the cashback you earn to compare results."
+        ]
+    },
+
+    {
+        "day": 5,
+        "title": "Avoid Unnecessary Spending",
+        "img": "/assets/LifestyleImgs/FinancialImgs/5.png",
+        "intro": "Learn to control impulsive buying habits by applying mindful strategies like the 48-hour rule before making non-essential purchases.",
+        "topics": [
+            "What Is Unnecessary Spending?",
+            "Why Controlling Spending Matters",
+            "The 48-Hour Rule Explained",
+            "Practical Ways to Reduce Impulse Purchases"
+        ],
+        "theory": {
+            "What Is Unnecessary Spending?": "Unnecessary spending refers to purchases made on items you don’t truly need, often driven by impulse, discounts, or temporary emotions rather than actual requirements.",
+            "Why Controlling Spending Matters": "Unchecked spending can prevent you from achieving savings goals, create financial stress, and reduce your ability to invest in things that truly matter. Avoiding non-essential expenses frees up money for long-term priorities.",
+            "The 48-Hour Rule Explained": "The 48-hour rule is a self-imposed delay tactic. Instead of purchasing something immediately, you wait for 48 hours before making a decision. This cooling-off period helps determine whether the item is a genuine need or just a passing want.",
+            "Practical Ways to Reduce Impulse Purchases": [
+                "Unsubscribe from marketing emails and notifications that trigger spending.",
+                "Carry a shopping list and stick to it.",
+                "Avoid saving card details in shopping apps for quick checkouts.",
+                "Set a monthly ‘fun budget’ to limit non-essential expenses.",
+                "Reflect on long-term goals whenever tempted to buy impulsively."
+            ]
+        },
+        "activity": [
+            "Identify one non-essential purchase you are considering (e.g., clothes, gadgets, dining out).",
+            "Apply the 48-hour rule before buying it.",
+            "After 48 hours, reassess whether the item is still necessary.",
+            "Optional: Track how much money you save each week by delaying or avoiding these purchases."
+        ]
+    },
+
+     {
+        "day": 6,
+        "title": "Start a Savings Jar or Account",
+        "img": "/assets/LifestyleImgs/FinancialImgs/6.png",
+        "intro": "Build a consistent saving habit by creating a dedicated account or physical jar to set aside money regularly, making saving automatic and effortless.",
+        "topics": [
+            "Why Savings Matter",
+            "Savings Jar vs Savings Account",
+            "Automating Your Savings",
+            "Building a Consistent Habit"
+        ],
+        "theory": {
+            "Why Savings Matter": "Savings provide financial security, help you handle emergencies, and allow you to achieve long-term goals such as travel, education, or investments. Building a habit of saving ensures money grows steadily over time.",
+            "Savings Jar vs Savings Account": {
+                "Savings Jar": "A physical jar or box where you put aside cash regularly. This works well for beginners or visual learners who like to ‘see’ their money grow.",
+                "Savings Account": "A digital account in a bank that earns interest on your deposits. More secure and suitable for larger savings or long-term goals."
+            },
+            "Automating Your Savings": "Set up automatic transfers from your salary or main account to your savings account each month. This ensures saving happens first, before you get tempted to spend.",
+            "Building a Consistent Habit": [
+                "Start small with a fixed weekly or monthly amount.",
+                "Treat savings as a ‘non-negotiable expense’.",
+                "Increase contributions gradually as income grows.",
+                "Track progress to stay motivated.",
+                "Celebrate milestones to reinforce the habit."
+            ]
+        },
+        "activity": [
+            "Decide whether you want to use a physical jar or open a dedicated savings account.",
+            "If using a savings account, set up an automatic transfer from your salary or primary account on payday.",
+            "If using a jar, commit to putting in a fixed amount (e.g., ₹100 daily or ₹1000 weekly).",
+            "Optional: Give your jar/account a label (e.g., ‘Emergency Fund’ or ‘Dream Trip’) to stay motivated."
+        ]
     }
+
 ]

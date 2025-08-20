@@ -22,5 +22,190 @@
             "Now list possible counterarguments or situations where it may not hold true.",
             "Reflect: Did this activity strengthen your belief, modify it, or open new perspectives?"
         ]
+    },
+
+
+
+    {
+        "day": 2,
+        "title": "Read a News Article & Evaluate Credibility",
+        "img": "/assets/LifestyleImgs/CriticalImgs/2.jfif",
+        "intro": "Learn how to critically evaluate a news article by examining its source, author, and supporting evidence to build media literacy and avoid misinformation.",
+        "topics": [
+            "What Is Media Literacy?",
+            "Why Evaluating Sources Matters",
+            "Steps to Check News Credibility",
+            "Common Red Flags of Unreliable News"
+        ],
+        "theory": {
+            "What Is Media Literacy?": "Media literacy is the ability to access, analyze, evaluate, and create media responsibly. It helps individuals recognize bias, misinformation, and credible information.",
+            "Why Evaluating Sources Matters": "In today’s digital age, false information spreads quickly. Evaluating sources ensures you base decisions on accurate facts and trustworthy reporting.",
+            "Steps to Check News Credibility": {
+                "Check the Publisher": "Look at the news outlet’s reputation, mission, and editorial standards.",
+                "Verify the Author": "Research the author’s background, expertise, and credibility.",
+                "Cross-Check Facts": "Compare reported facts with at least two other trusted sources.",
+                "Examine Evidence": "Look for data, citations, and direct quotes from experts or official documents."
+            },
+            "Common Red Flags of Unreliable News": {
+                "Clickbait Headlines": "Overly dramatic or misleading titles designed to grab attention.",
+                "Lack of Sources": "No citations, vague references, or anonymous claims.",
+                "Strong Bias": "One-sided reporting without presenting multiple perspectives.",
+                "Errors": "Frequent grammatical mistakes or factual inconsistencies."
+            }
+        },
+        "activity": [
+            "Choose a recent news article online or in print.",
+            "Research the publisher’s background and credibility.",
+            "Look up the author to check expertise and reliability.",
+            "Verify at least two key facts with other trusted sources.",
+            "Reflect: Is this article trustworthy? Why or why not?"
+        ]
+    },
+
+    {
+        "day": 3,
+        "title": "Debate Both Sides of an Argument",
+        "img": "/assets/LifestyleImgs/CriticalImgs/3.jfif",
+        "intro": "Strengthen critical thinking and communication by practicing how to argue from multiple perspectives, even those you may not agree with.",
+        "topics": [
+            "What Is a Debate?",
+            "Why Arguing Both Sides Matters",
+            "Steps to Practice Balanced Debating",
+            "Examples of Debate Topics"
+        ],
+        "theory": {
+            "What Is a Debate?": "A debate is a structured discussion where individuals present opposing viewpoints on a specific topic, supporting their stance with logic, evidence, and reasoning.",
+            "Why Arguing Both Sides Matters": "Debating both sides builds empathy, sharpens analytical skills, and helps identify the strengths and weaknesses of different arguments.",
+            "Steps to Practice Balanced Debating": {
+                "Pick a Clear Topic": "Choose a subject with two opposing viewpoints.",
+                "Argue For (Pro Side)": "Present reasons, facts, and examples that support the topic.",
+                "Argue Against (Con Side)": "Switch perspective and challenge the topic with counterarguments.",
+                "Reflect": "Evaluate which side had stronger reasoning and what you learned."
+            },
+            "Examples of Debate Topics": {
+                "Technology": "Should social media be limited for teenagers?",
+                "Education": "Is online learning as effective as classroom learning?",
+                "Lifestyle": "Is a plant-based diet better than a meat-based diet?",
+                "Society": "Should voting be mandatory in democratic countries?"
+            }
+        },
+        "activity": [
+            "Pick a topic you’re interested in (e.g., online learning vs classroom learning).",
+            "Write or speak arguments supporting one side of the topic.",
+            "Switch perspectives and argue the opposite side with equal effort.",
+            "If possible, do this exercise with a friend or group to get feedback.",
+            "Reflect: Which side felt stronger and why?"
+        ]
+    },
+
+    
+    {
+        "day": 4,
+        "title": "Solve a Logic Puzzle or Brain Teaser",
+        "img": "/assets/LifestyleImgs/CriticalImgs/4.jfif",
+        "intro": "Boost your problem-solving and critical thinking by working through logic puzzles and brain teasers that challenge your reasoning skills.",
+        "topics": [
+            "What Are Logic Puzzles?",
+            "Why Brain Teasers Improve Thinking",
+            "Types of Logic Puzzles",
+            "Steps for Structured Problem-Solving"
+        ],
+        "theory": {
+            "What Are Logic Puzzles?": "Logic puzzles are problems that require reasoning and critical thinking to solve. They often involve patterns, sequences, or rules that must be discovered.",
+            "Why Brain Teasers Improve Thinking": "Brain teasers sharpen focus, enhance creativity, and strengthen structured problem-solving skills by encouraging new ways of thinking.",
+            "Types of Logic Puzzles": {
+                "Pattern Recognition": "Identify sequences or relationships (e.g., number or letter series).",
+                "Riddles": "Word problems with hidden meanings or twists.",
+                "Deduction Puzzles": "Use clues to determine facts (e.g., who owns what in a story).",
+                "Visual Puzzles": "Analyze images, spot differences, or complete sequences."
+            },
+            "Steps for Structured Problem-Solving": {
+                "Understand the Problem": "Read the puzzle carefully and identify the goal.",
+                "Break It Down": "Separate the problem into smaller steps or clues.",
+                "Look for Patterns": "Identify repeated rules, relationships, or logical connections.",
+                "Test and Verify": "Check your solution against the rules to ensure accuracy."
+            }
+        },
+        "activity": [
+            "Choose one logic puzzle or brain teaser (from a book, app, or online).",
+            "Read the puzzle carefully and note key information or clues.",
+            "Apply step-by-step reasoning to work toward the solution.",
+            "Check your answer to confirm it follows all rules.",
+            "Optional: Share the puzzle with a friend and compare solving approaches."
+        ]
+    },
+
+    {
+        "day": 5,
+        "title": "Break Down a Problem into Cause & Effect",
+        "img": "/assets/LifestyleImgs/CriticalImgs/5.jfif",
+        "intro": "Develop analytical thinking by identifying the root causes of a problem and mapping their effects to better understand and solve challenges.",
+        "topics": [
+            "What Is Cause and Effect Analysis?",
+            "Why Breaking Problems Down Helps",
+            "Common Tools for Cause/Effect Thinking",
+            "Steps to Analyze Problems Effectively"
+        ],
+        "theory": {
+            "What Is Cause and Effect Analysis?": "Cause and effect analysis is a method of exploring why a problem happens and how it leads to certain outcomes. It helps in identifying patterns and root causes rather than just symptoms.",
+            "Why Breaking Problems Down Helps": "By separating causes from effects, you can address the root of an issue instead of repeatedly fixing surface-level problems.",
+            "Common Tools for Cause/Effect Thinking": {
+                "Fishbone Diagram": "Also called an Ishikawa diagram, it visually organizes causes into categories leading to a central effect.",
+                "5 Whys Method": "A questioning technique where you repeatedly ask 'Why?' until you reach the root cause.",
+                "Cause-Effect List": "A simple listing of all possible causes alongside their effects."
+            },
+            "Steps to Analyze Problems Effectively": {
+                "Identify the Problem": "Clearly define what issue you are analyzing.",
+                "List Possible Causes": "Brainstorm potential reasons why this problem occurs.",
+                "Map the Effects": "Note down what happens as a result of the problem.",
+                "Find Root Causes": "Dig deeper to see which causes are the most fundamental.",
+                "Reflect on Solutions": "Consider what can be done to address the root causes."
+            }
+        },
+        "activity": [
+            "Choose a current problem you are facing (e.g., poor time management).",
+            "Write the problem in the center of a page or diagram.",
+            "List at least 3 possible causes of this problem.",
+            "List at least 3 effects or consequences that result from it.",
+            "Optional: Use the 5 Whys method or a fishbone diagram to explore root causes more deeply."
+        ]
+    },
+
+    {
+        "day": 6,
+        "title": "Identify Bias in Something You Watch or Read",
+        "img": "/assets/LifestyleImgs/CriticalImgs/6.jfif",
+        "intro": "Learn to spot bias in media by analyzing tone, word choice, and perspective to build critical awareness and balanced thinking.",
+        "topics": [
+            "What Is Media Bias?",
+            "Why Recognizing Bias Matters",
+            "Types of Bias in Media",
+            "Steps to Spot Bias"
+        ],
+        "theory": {
+            "What Is Media Bias?": "Media bias occurs when information is presented in a way that favors a particular perspective, opinion, or group, instead of being completely neutral or balanced.",
+            "Why Recognizing Bias Matters": "Identifying bias helps you make informed decisions, avoid manipulation, and develop a well-rounded understanding of issues.",
+            "Types of Bias in Media": {
+                "Selection Bias": "Choosing which facts or stories to highlight while ignoring others.",
+                "Language Bias": "Using emotionally charged or misleading words to shape perception.",
+                "Confirmation Bias": "Presenting information that supports a particular belief while dismissing opposing evidence.",
+                "Omission Bias": "Leaving out critical details or perspectives that may change interpretation."
+            },
+            "Steps to Spot Bias": {
+                "Check the Language": "Look for emotionally loaded or one-sided words.",
+                "Examine Sources": "See if multiple perspectives are included or only one side.",
+                "Identify What’s Missing": "Ask what information or viewpoint is left out.",
+                "Compare with Other Sources": "Cross-check with other news outlets or materials."
+            }
+        },
+        "activity": [
+            "Watch a short news clip or read a recent article.",
+            "Underline or note any emotionally loaded words or one-sided language.",
+            "Identify which perspectives are included and which are missing.",
+            "Compare the story with another source to see differences in reporting.",
+            "Reflect: What kind of bias did you notice, and how did it shape the message?"
+        ]
     }
+
 ]
+

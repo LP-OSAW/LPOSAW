@@ -22,5 +22,208 @@
             "Play back the recording and listen carefully to your clarity, tone, and pacing.",
             "Note one strength and one area to improve for your next practice."
         ]
+    },
+
+    {
+        "day": 2,
+        "title": "Practice Active Listening (Don’t Interrupt)",
+        "img": "/assets/LifestyleImgs/EffectiveImgs/2.jfif",
+        "intro": "Strengthen your communication by practicing active listening—focusing fully on the speaker without interrupting or preparing your reply in advance.",
+        "topics": [
+            "What Is Active Listening?",
+            "Why Active Listening Matters",
+            "Key Skills for Active Listening",
+            "Common Barriers to Listening"
+        ],
+        "theory": {
+            "What Is Active Listening?": "Active listening is the practice of giving your full attention to the speaker, understanding their message, and responding thoughtfully, rather than just passively hearing words.",
+            "Why Active Listening Matters": "It builds trust, reduces misunderstandings, and makes conversations more meaningful by showing respect and empathy.",
+            "Key Skills for Active Listening": {
+                "Don’t Interrupt": "Allow the speaker to finish before you respond.",
+                "Show Engagement": "Use nods, eye contact, and short affirmations like 'I see' or 'mm-hmm.'",
+                "Reflect Back": "Paraphrase or summarize what the speaker said to confirm understanding.",
+                "Stay Present": "Focus on the current conversation instead of planning your reply or getting distracted."
+            },
+            "Common Barriers to Listening": {
+                "Distractions": "Thinking about your phone, to-do list, or other concerns.",
+                "Judgment": "Forming opinions too quickly instead of hearing the full message.",
+                "Rehearsing Replies": "Planning what you’ll say instead of listening actively.",
+                "Interrupting": "Cutting in before the speaker finishes, which breaks flow and trust."
+            }
+        },
+        "activity": [
+            "Choose one conversation today to consciously practice active listening.",
+            "Focus fully on the speaker without planning your response in advance.",
+            "Use small cues (nods, eye contact, 'mm-hmm') to show attentiveness.",
+            "Wait until the speaker fully finishes before you reply.",
+            "Optional: After the conversation, reflect on how it felt to listen actively."
+        ]
+    },
+
+    {
+        "day": 3,
+        "title": "Learn 3 New Vocabulary Words",
+        "img": "/assets/LifestyleImgs/EffectiveImgs/3.jfif",
+        "intro": "Expand your communication skills by learning and practicing three new vocabulary words in both writing and conversation.",
+        "topics": [
+            "Why Expanding Vocabulary Matters",
+            "How to Learn New Words Effectively",
+            "Ways to Practice Vocabulary",
+            "Examples of Vocabulary Usage"
+        ],
+        "theory": {
+            "Why Expanding Vocabulary Matters": "A richer vocabulary improves your ability to express thoughts clearly, enhances reading comprehension, and strengthens confidence in both personal and professional communication.",
+            "How to Learn New Words Effectively": {
+                "Look Up Meanings": "Use a reliable dictionary or online resource for definitions.",
+                "Understand Context": "See how the word is used in real sentences.",
+                "Practice Repetition": "Use the word multiple times in speaking and writing.",
+                "Connect With Known Words": "Relate new words to synonyms, antonyms, or familiar ideas."
+            },
+            "Ways to Practice Vocabulary": {
+                "Flashcards": "Write the word on one side and its meaning on the other.",
+                "Sentence Creation": "Make your own examples to reinforce memory.",
+                "Daily Conversations": "Intentionally use new words in your speech with others.",
+                "Journaling": "Include the words in short reflections or diary entries."
+            },
+            "Examples of Vocabulary Usage": {
+                "Eloquent": {
+                    "Definition": "Fluent or persuasive in speaking or writing.",
+                    "Sentence": "Her eloquent speech moved the audience to tears."
+                },
+                "Meticulous": {
+                    "Definition": "Showing great attention to detail; very careful and precise.",
+                    "Sentence": "He was meticulous in preparing his research notes."
+                },
+                "Resilient": {
+                    "Definition": "Able to recover quickly from difficulties or setbacks.",
+                    "Sentence": "Children can be remarkably resilient after facing challenges."
+                }
+            }
+        },
+        "activity": [
+            "Choose three new words you find interesting or useful.",
+            "Write down their definitions and an example sentence for each.",
+            "Use the words in a short paragraph or conversation today.",
+            "Reflect: Did using these words make your expression clearer or more engaging?"
+        ]
+    },
+
+    {
+        "day": 4,
+        "title": "Speak in Front of a Mirror for 2 Minutes",
+        "img": "/assets/LifestyleImgs/EffectiveImgs/4.jfif",
+        "intro": "Build confidence and self-awareness in speaking by practicing in front of a mirror, focusing on posture, gestures, and expressions.",
+        "topics": [
+            "Why Mirror Practice Helps",
+            "Key Elements to Observe",
+            "Tips for Effective Practice",
+            "Common Mistakes to Avoid"
+        ],
+        "theory": {
+            "Why Mirror Practice Helps": "Speaking in front of a mirror allows you to see yourself as others do, helping you notice body language, gestures, and expressions that influence communication.",
+            "Key Elements to Observe": {
+                "Facial Expressions": "Ensure your expressions match the tone of your message.",
+                "Gestures": "Use natural hand movements to emphasize points.",
+                "Posture": "Stand tall, relaxed, and confident to project assurance.",
+                "Eye Contact": "Practice maintaining steady eye contact with your reflection."
+            },
+            "Tips for Effective Practice": {
+                "Choose Simple Topics": "Pick something familiar like a hobby or recent event.",
+                "Set a Timer": "Speak for at least 2 minutes without stopping.",
+                "Record Yourself": "Optionally record the session to review progress.",
+                "Reflect": "Note strengths and areas for improvement after each attempt."
+            },
+            "Common Mistakes to Avoid": {
+                "Monotone Voice": "Avoid speaking flatly; vary tone for engagement.",
+                "Overthinking Gestures": "Keep movements natural instead of forced.",
+                "Avoiding the Mirror": "Maintain eye contact instead of glancing away.",
+                "Rushing": "Speak at a steady, clear pace without hurrying."
+            }
+        },
+        "activity": [
+            "Pick a topic you enjoy (e.g., your favorite hobby or recent experience).",
+            "Stand in front of a mirror and set a timer for 2 minutes.",
+            "Speak continuously, focusing on facial expressions, gestures, and posture.",
+            "Optional: Record yourself to review later and track progress.",
+            "Reflect: Which habits made you look confident, and what can you improve?"
+        ]
+    },
+
+    {
+        "day": 5,
+        "title": "Watch a TED Talk and Note the Speaker's Style",
+        "img": "/assets/LifestyleImgs/EffectiveImgs/5.jpg",
+        "intro": "Learn from world-class speakers by observing how they use tone, body language, structure, and storytelling to deliver powerful talks.",
+        "topics": [
+            "Why Study TED Talks?",
+            "Key Elements to Observe",
+            "Benefits of Speaker Analysis",
+            "How to Apply Observations"
+        ],
+        "theory": {
+            "Why Study TED Talks?": "TED Talks feature skilled speakers who excel at engaging audiences, making them a great resource for learning effective communication techniques.",
+            "Key Elements to Observe": {
+                "Tone": "Notice how the speaker adjusts pitch, speed, and pauses to emphasize points.",
+                "Body Language": "Observe gestures, posture, and eye contact to see how they build connection.",
+                "Structure": "Pay attention to how the talk begins, flows, and concludes for clarity.",
+                "Storytelling": "Identify personal stories, examples, or analogies used to make ideas memorable."
+            },
+            "Benefits of Speaker Analysis": {
+                "Self-Improvement": "Learning from experts helps you refine your own speaking style.",
+                "Awareness": "You become more conscious of how delivery affects impact.",
+                "Confidence": "Adopting effective techniques boosts stage presence and audience connection."
+            },
+            "How to Apply Observations": {
+                "Note-Taking": "Write down at least 3 techniques you notice in the talk.",
+                "Practice": "Try using one technique in your next conversation or practice session.",
+                "Reflection": "Compare your own style to the speaker’s strengths and areas for growth."
+            }
+        },
+        "activity": [
+            "Choose a TED Talk that is 10 minutes or less.",
+            "Watch the talk carefully, focusing on tone, body language, structure, and storytelling.",
+            "Take notes on at least 3 techniques you observe.",
+            "Reflect on how you can apply one or more of these techniques in your own speaking practice."
+        ]
+    },
+
+    {
+        "day": 6,
+        "title": "Write a Clear Message or Email",
+        "img": "/assets/LifestyleImgs/EffectiveImgs/6.png",
+        "intro": "Learn to write concise, goal-focused messages or emails by practicing clarity, tone, and structure.",
+        "topics": [
+            "Why Clear Communication Matters",
+            "Elements of an Effective Message",
+            "Common Mistakes to Avoid",
+            "Steps to Improve Clarity"
+        ],
+        "theory": {
+            "Why Clear Communication Matters": "Clear emails and messages save time, reduce misunderstandings, and build professional credibility.",
+            "Elements of an Effective Message": {
+                "Goal": "Define the main purpose (e.g., request info, confirm plans).",
+                "Clarity": "Use simple, direct language without unnecessary words.",
+                "Tone": "Adjust formality depending on audience (professional vs. casual).",
+                "Structure": "Organize with a greeting, body, and closing for readability."
+            },
+            "Common Mistakes to Avoid": {
+                "Over-Explaining": "Adding unnecessary details that confuse the main message.",
+                "Vague Language": "Leaving the recipient unsure of what action to take.",
+                "Poor Tone": "Sounding too abrupt or too informal in the wrong context.",
+                "Lack of Proofreading": "Typos and errors reduce professionalism and clarity."
+            },
+            "Steps to Improve Clarity": {
+                "Draft First": "Write the full message without overthinking.",
+                "Revise": "Remove extra words, check tone, and simplify.",
+                "Highlight Action": "Ensure the recipient knows exactly what is expected.",
+                "Proofread": "Review grammar, spelling, and overall tone before sending."
+            }
+        },
+        "activity": [
+            "Choose a purpose (e.g., confirming a meeting, requesting information).",
+            "Draft a short email or message with a clear goal.",
+            "Revise it by removing unnecessary words and checking tone.",
+            "Ensure the final version is clear, concise, and professional."
+        ]
     }
 ]

@@ -1,0 +1,225 @@
+[
+    {
+        "day": 1,
+        "title": "Choose a 1-Minute Topic and Practice It Aloud",
+        "img": "/assets/LifestyleImgs/PublicImgs/1.png",
+        "intro": "Build confidence in speaking by choosing a simple topic and practicing it aloud for one minute with a clear structure.",
+        "topics": [
+            "Why Start with 1-Minute Topics?",
+            "How to Structure Your Talk",
+            "Tips for Clear Delivery",
+            "Examples of Simple Topics"
+        ],
+        "theory": {
+            "Why Start with 1-Minute Topics?": "Short practice sessions reduce pressure and help beginners focus on clarity instead of length. Speaking for one minute feels manageable and encourages consistency without fear of running out of ideas.",
+            "How to Structure Your Talk": {
+                "Introduction": "Begin with a quick opening statement to introduce the topic (e.g., 'Today I’ll talk about my favorite hobby').",
+                "Body": "Share 2–3 key points or details. Keep it simple, clear, and relevant.",
+                "Conclusion": "End with a closing remark that summarizes your point or adds a positive note."
+            },
+            "Tips for Clear Delivery": {
+                "Speak Slowly": "Avoid rushing—pace yourself so every word is clear.",
+                "Use Pauses": "Short pauses make the talk easier to follow and more natural.",
+                "Stay Relaxed": "Take a breath and stay calm to reduce nervousness.",
+                "Practice Out Loud": "Hearing your own voice helps improve pronunciation and flow."
+            },
+            "Examples of Simple Topics": {
+                "Favorite Hobby": "Describe why you enjoy it and what it gives you.",
+                "Favorite Food": "Explain what makes it special and a memory tied to it.",
+                "Daily Routine": "Share one thing you do every day and why it matters.",
+                "Inspiring Person": "Talk about someone who motivates you and how they impact your life."
+            }
+        },
+        "activity": [
+            "Pick a simple topic (e.g., your favorite hobby, food, or daily routine).",
+            "Set a timer for 1 minute.",
+            "Practice speaking with a clear introduction, body, and conclusion.",
+            "Optional: Record yourself and notice if your talk flows naturally."
+        ]
+    },
+
+    {
+        "day": 2,
+        "title": "Record Yourself and Note Filler Words",
+        "img": "/assets/LifestyleImgs/PublicImgs/2.png",
+        "intro": "Improve clarity by recording your 1-minute speech and identifying filler words like 'um,' 'ah,' or 'you know.'",
+        "topics": [
+            "Why Record Your Speech?",
+            "What Are Filler Words?",
+            "How Filler Words Affect Communication",
+            "Strategies to Reduce Filler Words"
+        ],
+        "theory": {
+            "Why Record Your Speech?": "Recording allows you to hear your natural speaking style. Often, we don’t notice habits like rushing, mumbling, or repeating words until we listen to ourselves. This feedback helps you track progress and make intentional improvements.",
+            "What Are Filler Words?": "Filler words are small, unnecessary sounds or phrases (e.g., 'um,' 'ah,' 'like,' 'you know'). They don’t add meaning but fill pauses when we are thinking of what to say next.",
+            "How Filler Words Affect Communication": {
+                "Clarity": "Too many fillers distract the listener and make your message less clear.",
+                "Confidence": "Frequent use can make you sound uncertain or nervous.",
+                "Engagement": "Listeners may lose interest if fillers interrupt your flow."
+            },
+            "Strategies to Reduce Filler Words": {
+                "Pause Instead": "Replace fillers with short pauses—it gives you time to think and sounds more confident.",
+                "Slow Down": "Speaking too fast increases fillers. A steady pace reduces them naturally.",
+                "Practice Awareness": "Recording yourself helps you notice patterns and consciously correct them.",
+                "Structured Thoughts": "Plan your speech with a beginning, middle, and end to stay focused."
+            }
+        },
+        "activity": [
+            "Pick a simple 1-minute topic (same as Day 1 or a new one).",
+            "Record yourself while speaking aloud.",
+            "Listen to the recording and tally every 'um,' 'ah,' 'you know,' or other filler word.",
+            "Optional: Repeat the same talk again, focusing on reducing fillers."
+        ]
+    },
+
+    {
+        "day": 3,
+        "title": "Use Hand Gestures and Facial Expressions",
+        "img": "/assets/LifestyleImgs/PublicImgs/3.png",
+        "intro": "Enhance your speech delivery by practicing hand gestures and facial expressions to add clarity, emphasis, and engagement.",
+        "topics": [
+            "Why Gestures and Expressions Matter",
+            "Types of Hand Gestures",
+            "Role of Facial Expressions",
+            "Tips for Effective Use"
+        ],
+        "theory": {
+            "Why Gestures and Expressions Matter": "Gestures and expressions help communicate emotions and ideas more vividly. They capture attention, emphasize important points, and make your speech memorable. Without them, even strong content may sound flat or less engaging.",
+            "Types of Hand Gestures": {
+                "Illustrative Gestures": "Movements that explain or highlight a point, such as showing size or direction.",
+                "Emphatic Gestures": "Used to stress key ideas, like pointing or a firm hand motion.",
+                "Counting Gestures": "Using fingers to show numbers or steps in your speech.",
+                "Open-Palm Gestures": "Signal openness, honesty, and confidence when addressing an audience."
+            },
+            "Role of Facial Expressions": {
+                "Smile": "Creates warmth, friendliness, and approachability.",
+                "Eyebrow Movement": "Conveys surprise, curiosity, or emphasis.",
+                "Eye Contact": "Builds trust and makes the audience feel involved.",
+                "Varied Expressions": "Reflect emotions like happiness, seriousness, or excitement to match your content."
+            },
+            "Tips for Effective Use": {
+                "Be Natural": "Avoid forced movements—gestures should feel authentic and match your words.",
+                "Exaggerate in Practice": "Over-emphasize while practicing to build comfort, then balance during real delivery.",
+                "Coordinate with Speech": "Time gestures and expressions with key phrases for maximum impact.",
+                "Avoid Overuse": "Too many gestures can distract instead of support your message."
+            }
+        },
+        "activity": [
+            "Re-practice your 1-minute topic from Day 1 or Day 2.",
+            "Use hand gestures to illustrate points (e.g., counting steps, showing size).",
+            "Add facial expressions that match your emotions and message.",
+            "Optional: Record yourself again and compare with your earlier version."
+        ]
+    },
+
+    {
+        "day": 4,
+        "title": "Speak in Front of a Mirror with Confidence",
+        "img": "/assets/LifestyleImgs/PublicImgs/4.png",
+        "intro": "Build self-confidence by practicing your speech in front of a mirror to observe body language, posture, and eye contact.",
+        "topics": [
+            "Why Mirror Practice Works",
+            "Observing Posture",
+            "Eye Contact and Presence",
+            "Improving Expressions and Delivery"
+        ],
+        "theory": {
+            "Why Mirror Practice Works": "Practicing in front of a mirror helps you become more aware of your body language, facial expressions, and overall stage presence. It builds self-awareness, reduces nervous habits, and increases confidence before addressing real audiences.",
+            "Observing Posture": {
+                "Stand Tall": "Maintain an upright posture with shoulders relaxed and open to project confidence.",
+                "Avoid Slouching": "Slouching can make you appear nervous or unprepared.",
+                "Balanced Stance": "Distribute your weight evenly on both feet for stability.",
+                "Movement": "Controlled gestures and small steps add energy without seeming restless."
+            },
+            "Eye Contact and Presence": {
+                "Look at Yourself": "Practice maintaining steady eye contact with your reflection as if it were the audience.",
+                "Avoid Staring Down": "Looking down frequently signals a lack of confidence.",
+                "Engage Naturally": "Shift your gaze slightly as you would when addressing real people.",
+                "Presence": "Mirror practice helps you notice if your presence feels commanding or hesitant."
+            },
+            "Improving Expressions and Delivery": {
+                "Facial Awareness": "Ensure expressions match your words—smile for warmth, look serious for emphasis.",
+                "Voice Matching": "Adjust tone and pitch to align with your message.",
+                "Natural Flow": "Practice combining gestures, posture, and expression smoothly.",
+                "Refinement": "Identify and adjust distracting habits like fidgeting, blank expressions, or uneven pacing."
+            }
+        },
+        "activity": [
+            "Stand in front of a mirror with your prepared 1-minute talk.",
+            "Deliver your speech as if addressing a real audience.",
+            "Observe your posture, gestures, and facial expressions closely.",
+            "Adjust eye contact, stance, and expressions to project confidence.",
+            "Optional: Record this mirror practice to compare progress with earlier recordings."
+        ]
+    },
+
+    {
+        "day": 5,
+        "title": "Share a Story with a Friend or Group",
+        "img": "/assets/LifestyleImgs/PublicImgs/5.png",
+        "intro": "Practice storytelling by sharing a short personal story. Focus on clarity, pacing, and how your listener responds.",
+        "topics": [
+            "What Is Storytelling in Communication?",
+            "Why Stories Build Connection",
+            "Key Elements of an Engaging Story",
+            "Tips for Sharing with Confidence"
+        ],
+        "theory": {
+            "What Is Storytelling in Communication?": "Storytelling is the art of conveying experiences, ideas, or lessons through a structured narrative. It makes communication more memorable and relatable.",
+            "Why Stories Build Connection": "Stories help others connect emotionally, understand your perspective, and stay engaged. They humanize information and create lasting impact.",
+            "Key Elements of an Engaging Story": {
+                "Beginning": "Set the scene and introduce the context or challenge.",
+                "Middle": "Describe the main events or turning points clearly.",
+                "End": "Provide resolution or lesson learned to leave an impression."
+            },
+            "Tips for Sharing with Confidence": {
+                "Be Clear and Concise": "Keep the story short and easy to follow.",
+                "Use Natural Pace": "Avoid rushing—pause for effect and let key moments land.",
+                "Engage Your Listener": "Make eye contact, smile, and notice their reactions.",
+                "Practice Emotion": "Show enthusiasm or warmth to make your story impactful."
+            }
+        },
+        "activity": [
+            "Choose a short personal story (e.g., a funny incident or learning moment).",
+            "Tell the story to a friend, family member, or small group.",
+            "Pay attention to your tone, pacing, and expressions.",
+            "Notice listener reactions—did they laugh, smile, or ask questions?",
+            "Reflect: What made the story engaging, and what can you improve?"
+        ]
+    },
+
+    {
+        "day": 6,
+        "title": "Get Feedback and Refine Your Tone",
+        "img": "/assets/LifestyleImgs/PublicImgs/6.png",
+        "intro": "Learn to refine your speaking tone by asking for feedback on clarity, pacing, and confidence.",
+        "topics": [
+            "Why Feedback Matters",
+            "Tone in Communication",
+            "Pacing and Engagement",
+            "How to Use Feedback for Improvement"
+        ],
+        "theory": {
+            "Why Feedback Matters": "Feedback provides an outside perspective, helping you identify strengths and areas for improvement that you may not notice yourself.",
+            "Tone in Communication": "Your tone conveys emotions, confidence, and attitude. A positive, clear tone makes you sound engaging and trustworthy.",
+            "Pacing and Engagement": {
+                "Pacing": "Speaking too fast may confuse listeners, while speaking too slow may lose their attention. Balanced pacing keeps the audience engaged.",
+                "Engagement": "Vary your pitch, emphasize key points, and use pauses to create impact and hold interest."
+            },
+            "How to Use Feedback for Improvement": {
+                "Listen Openly": "Avoid being defensive—accept feedback as an opportunity to grow.",
+                "Ask Specific Questions": "Encourage feedback on tone, clarity, pacing, and confidence.",
+                "Practice Again": "Refine your tone by applying feedback and retelling your story.",
+                "Track Progress": "Notice how your delivery improves with practice and reflection."
+            }
+        },
+        "activity": [
+            "Share your story with a friend, family member, or colleague.",
+            "Ask them specific questions: Was my tone engaging? Did I pace well? Did I sound confident?",
+            "Write down their feedback in a notebook or app.",
+            "Repeat the story, applying their suggestions for improvement.",
+            "Reflect: How did the changes affect the listener’s engagement?"
+        ]
+    }
+
+]
