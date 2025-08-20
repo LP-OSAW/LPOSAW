@@ -23,8 +23,6 @@
             "Warrior II (Virabhadrasana II) – Improves lower body strength, stability, and core engagement."
         ]
     },
-
-    
     {
         "day": 2,
         "title": "Core Strength and Stability",
@@ -44,7 +42,102 @@
             "Side Plank (Vasisthasana) – Targets the obliques and improves balance and shoulder stability.",
             "Bridge Pose (Setu Bandhasana) – Tones the glutes and core while gently strengthening the back."
         ]
+    },
+    {
+        "day": 3,
+        "title": "Full-Body Flow for Calorie Burn",
+        "img": "/assets/YogaImgs/weightImgs/3.jpg",
+        "intro": "Activate your entire body with a calorie-burning yoga flow. This dynamic sequence blends cardio, strength, and flexibility to improve fitness and accelerate fat loss.",
+        "topics": [
+            "Engaging the Entire Body to Burn Calories",
+            "Dynamic Yoga Flow with Cardio, Strength, and Flexibility"
+        ],
+        "theory": {
+            "Engaging the Entire Body to Burn Calories": "Full-body movements stimulate multiple muscle groups, increasing calorie expenditure and improving metabolic function. This approach enhances cardiovascular health while building lean muscle mass.",
+            "Dynamic Yoga Flow with Cardio, Strength, and Flexibility": "Combining flowing sequences with strength-focused poses elevates the heart rate and challenges endurance. These movements develop flexibility and muscular control, supporting a more agile and resilient body."
+        },
+        "activity": [
+            "Sun Salutations A & B – Faster-paced sequence to elevate heart rate.",
+            "High Lunge to Warrior III – Strengthens legs, core, and arms.",
+            "Crescent Lunge (Anjaneyasana) – Opens hips, stretches thighs.",
+            "Warrior I & II – Strengthens legs, core, and arms."
+        ]
+    },
+    {
+        "day": 4,
+        "title": "Detox Yoga and Flexibility",
+        "img": "/assets/YogaImgs/weightImgs/4.webp",
+        "intro": "Cleanse the body and calm the mind through detoxifying yoga movements. This practice promotes digestion, reduces tension, and enhances overall flexibility.",
+        "topics": [
+            "Detoxifying the Body Through Yoga",
+            "Improving Digestion and Releasing Toxins",
+            "The Role of Breath in Detoxification",
+            "Stimulating the Lymphatic System Through Movement",
+            "Enhancing Flexibility to Support Circulation",
+            "Mind-Body Connection in Cleansing Practices"
+        ],
+        "theory": {
+            "Detoxifying the Body Through Yoga": "Certain yoga poses stimulate internal organs, aiding the body’s natural detox processes. Movement combined with deep breathing helps flush out toxins and restore energy balance.",
+            "Improving Digestion and Releasing Toxins": "Twisting and folding poses massage the digestive organs, boost circulation, and support elimination. Regular detox yoga can improve gut health, reduce bloating, and support a healthy metabolism.",
+            "The Role of Breath in Detoxification": "Deep, controlled breathing increases oxygen flow, reduces stress, and supports the body’s ability to remove toxins on a cellular level. Breathwork also helps calm the nervous system, enhancing overall detox benefits.",
+            "Stimulating the Lymphatic System Through Movement": "Yoga movements and inversions help activate the lymphatic system, which plays a key role in filtering waste and toxins from the body. This stimulation supports a healthy immune response.",
+            "Enhancing Flexibility to Support Circulation": "Improved flexibility allows better blood flow to muscles and organs. This circulation delivers nutrients and removes waste products more efficiently, aiding in natural detoxification.",
+            "Mind-Body Connection in Cleansing Practices": "Mindful movement encourages self-awareness and stress relief. Reducing mental clutter and emotional tension supports a deeper sense of clarity and balance—key components in holistic detoxification."
+        },
+        "activity": [
+            "Downward Dog (Adho Mukha Svanasana) – Stimulates circulation.",
+            "Twists (Seated or Standing) – Detoxify and improve digestion.",
+            "Forward Fold (Uttanasana) – Releases tension in legs and back.",
+            "Revolved Triangle Pose (Parivrtta Trikonasana) – Stretches and strengthens."
+        ]
+    },
+    {
+        "day": 5,
+        "title": "Yoga for Strength and Endurance",
+        "img": "/assets/YogaImgs/weightImgs/5.jpeg",
+        "intro": "Enhance your physical resilience with yoga poses that build strength and endurance. This session focuses on muscular engagement, stamina, and mental discipline.",
+        "topics": [
+            "Building Stamina and Endurance Through Strength-Based Yoga Poses",
+            "Engaging Major Muscle Groups to Improve Physical Stability",
+            "The Role of Consistent Effort in Developing Strength",
+            "Using Breath to Support Muscular Endurance"
+        ],
+        "theory": {
+            "Building Stamina and Endurance Through Strength-Based Yoga Poses": "Strength-oriented yoga challenges the muscles to hold postures longer, increasing both endurance and stamina. Over time, this builds physical resilience and energy efficiency.",
+            "Engaging Major Muscle Groups to Improve Physical Stability": "Yoga poses like Chair and Plank activate the legs, core, and upper body, creating full-body strength that supports daily movement and posture.",
+            "The Role of Consistent Effort in Developing Strength": "Holding postures and repeating strength-based sequences trains the body to sustain effort over time, which improves both muscular and cardiovascular endurance.",
+            "Using Breath to Support Muscular Endurance": "Controlled, rhythmic breathing helps sustain challenging poses, reduces fatigue, and promotes mind-body coordination essential for strength development."
+        },
+        "activity": [
+            "Chair Pose (Utkatasana) – Hold for 1 minute to build endurance.",
+            "Warrior III (Virabhadrasana III) – Improves balance and core strength.",
+            "Plank Pose (Phalakasana) – Hold for 30-60 seconds.",
+            "Cobra Pose (Bhujangasana) – Stretches chest and strengthens lower back."
+        ]
+    },
+    {
+        "day": 6,
+        "title": "Restorative Yoga and Flexibility",
+        "img": "/assets/YogaImgs/weightImgs/6.webp",
+        "intro": "Unwind and restore with gentle yoga poses that support muscle recovery and improve flexibility. This session helps release physical and mental tension while promoting relaxation.",
+        "topics": [
+            "Relaxing the Body and Increasing Flexibility",
+            "Importance of Recovery and Muscle Relaxation",
+            "The Role of Restorative Yoga in Stress Relief",
+            "Supporting Flexibility Through Gentle, Passive Stretching"
+        ],
+        "theory": {
+            "Relaxing the Body and Increasing Flexibility": "Slow, mindful movements allow the muscles to release and lengthen without strain. This improves flexibility while calming the nervous system.",
+            "Importance of Recovery and Muscle Relaxation": "Rest and recovery are vital for muscle repair, growth, and overall performance. Restorative yoga provides active rest that supports long-term progress and injury prevention.",
+            "The Role of Restorative Yoga in Stress Relief": "Holding gentle poses for longer durations helps shift the body into a parasympathetic state, reducing cortisol levels and promoting emotional balance.",
+            "Supporting Flexibility Through Gentle, Passive Stretching": "Passive stretching helps open tight areas without resistance. Over time, it increases range of motion, especially when practiced consistently in a relaxed state."
+        },
+        "activity": [
+            "Child’s Pose (Balasana) – Restorative pose for relaxation.",
+            "Cat-Cow Pose (Marjaryasana-Bitilasana) – Gently stretches the back.",
+            "Seated Forward Fold (Paschimottanasana) – Stretches hamstrings and calves.",
+            "Happy Baby Pose (Ananda Balasana) – Releases tension in hips and back.",
+            "Wide-Legged Seated Forward Fold (Upavistha Konasana) – Deepens inner thigh and hamstring flexibility while calming the mind."
+        ]
     }
-
-
 ]
