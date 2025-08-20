@@ -1,0 +1,154 @@
+[
+    {
+        "day": 1,
+        "title": "Diaphragmatic Breathing",
+        "img": "/assets/YogaImgs/paranayamaImgs/1.png",
+        "intro": "Learn to connect with your natural breath using diaphragmatic breathing to promote relaxation and mindfulness.",
+        "topics": [
+            "What is Diaphragmatic Breathing?",
+            "Benefits of Belly Breathing",
+            "Building Breath Awareness"
+        ],
+        "theory": {
+            "What is Diaphragmatic Breathing?": "Diaphragmatic breathing, also called belly breathing, is a technique that involves deep breathing by actively engaging the diaphragm. As you inhale, your belly expands outward; as you exhale, it gently contracts inward. This is different from shallow chest breathing, which uses the upper chest and shoulders and is common during stress or anxiety.",
+            "Benefits of Belly Breathing": "Practicing belly breathing activates the parasympathetic nervous system, helping to reduce stress and promote calmness. It improves oxygen intake, lowers heart rate and blood pressure, enhances focus, and supports emotional regulation. This type of breathing also supports better posture and can even aid in digestion by massaging internal organs.",
+            "Building Breath Awareness": "Becoming aware of how you breathe is the first step in reconnecting with your body. Placing a hand on the belly helps you observe your breath pattern. Over time, this awareness builds mindfulness, allowing you to use breath as a tool for grounding, especially in moments of anxiety, distraction, or emotional tension."
+        },
+        "activity": [
+            "Sit or lie down comfortably.",
+            "Place one hand on your chest and the other on your belly.",
+            "Inhale slowly through the nose, allowing the belly to rise as it fills with air.",
+            "Exhale slowly through the nose, letting the belly fall inward.",
+            "Keep your chest as still as possible.",
+            "Continue this practice for 5–10 minutes, focusing on the movement of the belly and the rhythm of your breath."
+        ]
+    },
+    {
+        "day": 2,
+        "title": "Nadi Shodhana (Alternate Nostril Breathing)",
+        "img": "/assets/YogaImgs/paranayamaImgs/2.png",
+        "intro": "Practice Nadi Shodhana to cleanse the energy channels and bring balance between the mind and body through alternate nostril breathing.",
+        "topics": [
+            "Balance Between Mind and Body",
+            "How Nadi Shodhana Works"
+        ],
+        "theory": {
+            "Balance Between Mind and Body": "Nadi Shodhana aims to harmonize the left and right hemispheres of the brain, promoting a balance between logic and intuition, activity and rest. It helps calm the mind while maintaining alertness, making it ideal for preparing for meditation or reducing stress.",
+            "How Nadi Shodhana Works": "This technique involves controlled breathing through one nostril at a time. In yogic philosophy, the left nostril corresponds to the Ida nadi (cooling, calming energy), while the right corresponds to the Pingala nadi (heating, active energy). By alternating nostrils, the practice purifies these channels and balances the flow of prana (life energy)."
+        },
+        "activity": [
+            "Sit in a comfortable position with a straight spine.",
+            "Use your right thumb to close your right nostril.",
+            "Inhale slowly through your left nostril.",
+            "Close your left nostril with your ring finger, and release the right nostril.",
+            "Exhale through your right nostril.",
+            "Inhale through your right nostril.",
+            "Close the right nostril with your thumb and release the left.",
+            "Exhale through your left nostril.",
+            "This completes one round. Continue alternating nostrils for 5–10 minutes."
+        ]
+    },
+    
+    {
+        "day": 3,
+        "title": "Ujjayi (Ocean Breath)",
+        "img": "/assets/YogaImgs/paranayamaImgs/3.jpg",
+        "intro": "Practice Ujjayi breathing to cultivate breath control and inner stability by producing a calming ocean-like sound through gentle throat constriction.",
+        "topics": [
+            "Breath Control and Stability",
+            "How to Create the Ocean Sound"
+        ],
+        "theory": {
+            "Breath Control and Stability": "Ujjayi breath encourages a steady and controlled flow of breath, helping to stabilize the mind and body. This practice promotes internal focus, improves oxygen efficiency, and supports endurance, especially when combined with yoga postures or meditation.",
+            "How to Create the Ocean Sound": "The ocean sound is produced by slightly constricting the back of the throat while breathing in and out through the nose. This gentle resistance creates a soft, audible breath similar to waves or whispering wind. The sound anchors attention, making it easier to stay present and centered during practice."
+        },
+        "activity": [
+            "Sit comfortably with your spine upright and shoulders relaxed.",
+            "Inhale slowly through your nose while slightly constricting your throat to produce a soft oceanic sound.",
+            "Exhale through your nose using the same throat constriction, maintaining the sound.",
+            "Keep your mouth closed throughout the practice.",
+            "Focus on the sound and the rhythm of your breath.",
+            "Continue this practice for 5–8 minutes, allowing yourself to settle into a calm and steady flow."
+        ]
+    },
+
+
+
+    {
+        "day": 4,
+        "title": "Bhramari (Bee Breath)",
+        "img": "/assets/YogaImgs/paranayamaImgs/4.webp",
+        "intro": "Practice Bhramari, or Bee Breath, to harness the power of sound vibration for calming the mind and relieving stress.",
+        "topics": [
+            "Sound Vibration for Mental Calm",
+            "Benefits of Humming Breath"
+        ],
+        "theory": {
+            "Sound Vibration for Mental Calm": "Bhramari involves producing a gentle humming sound during exhalation, which creates vibrations that soothe the nervous system. This sound helps reduce mental chatter, relieve anxiety, and promote a sense of inner peace.",
+            "Benefits of Humming Breath": "The humming sound stimulates the vagus nerve, which plays a key role in activating the parasympathetic nervous system. This results in lowered blood pressure, reduced heart rate, and a calming effect on the brain, making Bhramari a powerful tool for emotional balance and relaxation."
+        },
+        "activity": [
+            "Sit comfortably with your spine straight and eyes closed.",
+            "Optional: Gently press your index fingers on the cartilage of your ears to partially block external sound.",
+            "Inhale deeply through your nose.",
+            "As you exhale, hum gently to produce a steady 'mmmm' sound, like a bee.",
+            "Feel the vibration in your head and chest.",
+            "Repeat this cycle for 6–8 rounds, focusing on the sound and sensation."
+        ]
+    },
+
+    {
+        "day": 5,
+        "title": "Kapalbhati (Skull Shining Breath)",
+        "img": "/assets/YogaImgs/paranayamaImgs/5.jpg",
+        "intro": "Practice Kapalbhati to cleanse the respiratory system and awaken energy through rapid, forceful exhalations and passive inhalations.",
+        "topics": [
+            "Cleansing and Energizing Breathwork",
+            "How Kapalbhati Works"
+        ],
+        "theory": {
+            "Cleansing and Energizing Breathwork": "Kapalbhati is a powerful breathing technique used to detoxify the lungs and energize the body. The forceful exhalations help eliminate stale air and toxins, while the rhythmic motion stimulates digestive organs and increases blood circulation.",
+            "How Kapalbhati Works": "In Kapalbhati, the focus is on short, forceful exhalations using abdominal contractions, while inhalation is passive and automatic. This dynamic breathwork activates the diaphragm and abdominal muscles, clears nasal passages, and increases mental clarity and alertness."
+        },
+        "activity": [
+            "Sit comfortably with a straight spine and relaxed shoulders.",
+            "Take a deep inhale through your nose.",
+            "Forcefully exhale through your nose by contracting your abdominal muscles.",
+            "Allow inhalation to happen naturally and passively.",
+            "Continue this pattern at a steady pace, aiming for 30–50 exhalations (pumps) in one round.",
+            "Pause and breathe normally between rounds.",
+            "Perform 2–3 rounds, adjusting the pace to your comfort level."
+        ]
+    },
+
+    
+    {
+        "day": 6,
+        "title": "Anulom Vilom",
+        "img": "/assets/YogaImgs/paranayamaImgs/6.jpg",
+        "intro": "Practice Anulom Vilom to enhance breath control and promote deep relaxation by balancing the flow of energy through alternate nostrils.",
+        "topics": [
+            "Deep Relaxation and Breath Control",
+            "Balancing Prana Through Breath Retention",
+            "Benefits for Cardiovascular and Respiratory Health",
+            "Preparation for Meditation"
+        ],
+        "theory": {
+            "Deep Relaxation and Breath Control": "Anulom Vilom is a gentle alternate nostril breathing technique that calms the nervous system and supports mental clarity. The rhythmic pattern of inhaling, holding, and exhaling helps regulate the breath, leading to deeper states of relaxation and inner stillness.",
+            "Balancing Prana Through Breath Retention": "Holding the breath after inhalation allows for fuller oxygen absorption and deeper energy balancing. This practice purifies the nadis (energy channels), enhances concentration, and brings harmony between the body and mind by synchronizing the breath with awareness.",
+            "Benefits for Cardiovascular and Respiratory Health": "By slowing the breath and engaging in deep, balanced breathing, Anulom Vilom helps lower blood pressure, improve lung capacity, and enhance overall cardiovascular function. It also supports clearer nasal passages and better oxygen exchange.",
+            "Preparation for Meditation": "Anulom Vilom settles the fluctuations of the mind, creating a calm and focused state ideal for entering meditation. It brings awareness inward, making it easier to stay present, reduce distraction, and deepen spiritual practices."
+        },
+        "activity": [
+            "Sit comfortably with a straight spine and relaxed posture.",
+            "Close your right nostril with your thumb and inhale through the left nostril for a count of 4.",
+            "Close both nostrils and hold the breath for a count of 8.",
+            "Release your thumb and exhale through the right nostril for a count of 8.",
+            "Now inhale through the right nostril for a count of 4.",
+            "Hold the breath again for a count of 8.",
+            "Exhale through the left nostril for a count of 8.",
+            "This completes one round. Continue alternating nostrils for 5–10 minutes, maintaining the 4:8:8 rhythm."
+        ]
+    }
+
+]

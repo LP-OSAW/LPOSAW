@@ -1,0 +1,50 @@
+[
+    {
+        "day": 1,
+        "title": "Introduction to Yoga for Weight Loss – Foundation",
+        "img": "/assets/YogaImgs/weightImgs/1.png",
+        "intro": "Begin your weight loss journey with foundational yoga practices that build strength, improve flexibility, and establish mindful awareness to support long-term goals.",
+        "topics": [
+            "Understanding How Yoga Aids in Weight Loss",
+            "Setting a Mindful Intention for Your Practice",
+            "The Role of Breath in Weight Management",
+            "Building Consistency Through Simple Routines"
+        ],
+        "theory": {
+            "Understanding How Yoga Aids in Weight Loss": "Yoga supports weight loss by increasing physical activity, improving metabolism, reducing stress-related eating, and enhancing self-awareness. Unlike intense cardio, yoga works holistically—toning muscles, stimulating internal organs, and balancing hormones to promote sustainable fat loss.",
+            "Setting a Mindful Intention for Your Practice": "Intentional practice enhances motivation and focus. By connecting with your reason for practicing—whether it's better health, energy, or emotional well-being—you create a purposeful approach that makes each session more effective and empowering.",
+            "The Role of Breath in Weight Management": "Breath control (pranayama) helps regulate stress and improves oxygen flow, which supports better digestion and hormonal balance. Conscious breathing during yoga enhances fat metabolism and keeps the body calm yet energized.",
+            "Building Consistency Through Simple Routines": "Starting with accessible poses builds confidence and establishes a habit. Short, daily routines lead to long-term success by gradually increasing stamina and strength without overwhelming the body."
+        },
+        "activity": [
+            "Surya Namaskar (Sun Salutation) – A dynamic sequence to warm up the body, boost circulation, and activate all major muscle groups.",
+            "Chaturanga Dandasana – Builds upper body and core strength, essential for posture and calorie burning.",
+            "Chair Pose (Utkatasana) – Strengthens the thighs, glutes, and core while increasing endurance.",
+            "Warrior II (Virabhadrasana II) – Improves lower body strength, stability, and core engagement."
+        ]
+    },
+
+    
+    {
+        "day": 2,
+        "title": "Core Strength and Stability",
+        "img": "/assets/YogaImgs/weightImgs/2.webp",
+        "intro": "Strengthen your core to support your yoga practice and accelerate fat loss. A strong core improves posture, balance, and overall body control.",
+        "topics": [
+            "Building Core Strength for Weight Loss and Body Toning",
+            "Importance of a Strong Core in Yoga"
+        ],
+        "theory": {
+            "Building Core Strength for Weight Loss and Body Toning": "A strong core increases metabolic activity and helps tone abdominal muscles, supporting a leaner appearance. Core-focused yoga poses also improve digestion and enhance functional strength for daily movement.",
+            "Importance of a Strong Core in Yoga": "In yoga, the core is the center of stability and alignment. Engaging your core in each posture provides support to the spine, improves balance, and prevents injury. Core awareness also deepens your mind-body connection."
+        },
+        "activity": [
+            "Boat Pose (Navasana) – Engages the entire core and strengthens the hip flexors.",
+            "Plank Pose (Phalakasana) – Builds strength in the arms, shoulders, and abdominal muscles.",
+            "Side Plank (Vasisthasana) – Targets the obliques and improves balance and shoulder stability.",
+            "Bridge Pose (Setu Bandhasana) – Tones the glutes and core while gently strengthening the back."
+        ]
+    }
+
+
+]
