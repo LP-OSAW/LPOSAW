@@ -13,9 +13,9 @@ const dirName = params.get("dir");
 const fileName = params.get("file");
 const day = params.get("day"); // fallback to Day 1
 
-console.log("Parsed Day:", day); //
+console.log("Parsed Day:", day);
 
-let filePath = `${ dirName }/${ fileName }`;
+let filePath = `${dirName}/${fileName}`;
 
 // Fetch JSON data for all days
 fetch(filePath)
@@ -28,21 +28,21 @@ fetch(filePath)
     if (currentDay) {
       renderDayData(currentDay);
     } else {
-      throw new Error(`Day ${ day } not found in the data.`);
+      throw new Error(`Day ${day} not found in the data.`);
     }
   })
   .catch(err => {
     console.error("Caught error:", err);
-    theoryContainer.innerHTML = `<p style="color: red;">Error loading content: ${ err.message }</p>`;
+    theoryContainer.innerHTML = `<p style="color: red;">Error loading content: ${err.message}</p>`;
   });
 
 // Main render function
 function renderDayData(data) {
   title.textContent = data.title || "No title found";
-  dayNo.textContent = "Day " + data.day;
+  dayNo.textContent = "Day " + data.day + ":";
 
   if (imgContainer && data.img) {
-    imgContainer.innerHTML = `<img src="${ data.img }" alt="Day ${ data.day } Image">`;
+    imgContainer.innerHTML = `<img src="${data.img}" alt="Day ${data.day} Image">`;
   }
 
   intro.textContent = data.intro || "No introduction available for this day.";
@@ -100,20 +100,22 @@ function renderTheory(theory) {
       sectionDiv.appendChild(heading);
 
       if (typeof sectionContent === "string") {
+        // Simple paragraph
         const para = document.createElement("p");
         para.textContent = sectionContent;
         sectionDiv.appendChild(para);
+
       } else if (typeof sectionContent === "object") {
         for (const key in sectionContent) {
           const value = sectionContent[key];
 
+          // 👉 Case 1: Shortcut Table
           if (
             typeof value === "object" &&
             "Windows Shortcut" in value &&
             "Mac Shortcut" in value &&
             "Description" in value
           ) {
-            // Shortcut table
             const table = document.createElement("table");
             table.classList.add("shortcut-table");
 
@@ -132,17 +134,41 @@ function renderTheory(theory) {
               const rowData = sectionContent[func];
               const tr = document.createElement("tr");
               tr.innerHTML = `
-                <td>${ func }</td>
-                <td>${ rowData["Windows Shortcut"] }</td>
-                <td>${ rowData["Mac Shortcut"] }</td>
-                <td>${ rowData["Description"] }</td>`;
+                <td>${func}</td>
+                <td>${rowData["Windows Shortcut"]}</td>
+                <td>${rowData["Mac Shortcut"]}</td>
+                <td>${rowData["Description"]}</td>`;
               tbody.appendChild(tr);
             }
 
             table.appendChild(tbody);
             sectionDiv.appendChild(table);
             break;
-          } else if (typeof value === "object") {
+          }
+
+          // 👉 Case 2: Key–Value steps (Step 1, Step 2...)
+          else if (typeof value === "string" || (typeof value === "object" && "instruction" in value)) {
+            const ul = document.createElement("ul");
+
+            for (const stepKey in sectionContent) {
+              const li = document.createElement("li");
+              let stepValue = sectionContent[stepKey];
+
+              if (typeof stepValue === "object" && "instruction" in stepValue) {
+                li.innerHTML = `<strong>${stepKey}:</strong> ${stepValue.instruction}`;
+              } else {
+                li.innerHTML = `<strong>${stepKey}:</strong> ${stepValue}`;
+              }
+
+              ul.appendChild(li);
+            }
+
+            sectionDiv.appendChild(ul);
+            break;
+          }
+
+          // 👉 Case 3: Nested objects (sub-sections)
+          else if (typeof value === "object") {
             const subHeading = document.createElement("h4");
             subHeading.textContent = key;
             sectionDiv.appendChild(subHeading);
@@ -150,7 +176,7 @@ function renderTheory(theory) {
             const ul = document.createElement("ul");
             for (const subKey in value) {
               const li = document.createElement("li");
-              li.innerHTML = `<strong>${ subKey }:</strong> ${ value[subKey] }`;
+              li.innerHTML = `<strong>${subKey}:</strong> ${value[subKey]}`;
               ul.appendChild(li);
             }
             sectionDiv.appendChild(ul);
@@ -199,12 +225,9 @@ document.addEventListener("DOMContentLoaded", () => {
 window.addEventListener('DOMContentLoaded', () => {
   const preloader = document.getElementById('preloader');
 
-  // Show preloader for at least 5 seconds
+  // Show preloader for at least 3 seconds
   setTimeout(() => {
-    // Hide preloader with fade out
     preloader.style.opacity = '0';
-
-    // After transition (0.5s), remove preloader from DOM
     setTimeout(() => {
       preloader.style.display = 'none';
     }, 500);

@@ -1,0 +1,332 @@
+[
+  {
+    "day": 2,
+    "test": [
+      {
+        "question": "What are beliefs best described as?",
+        "options": {
+          "A": "Scientific facts that never change",
+          "B": "Personal convictions or accepted truths",
+          "C": "Rules written by governments",
+          "D": "Opinions of other people"
+        },
+        "answer": { "B": "Personal convictions or accepted truths" }
+      },
+      {
+        "question": "Which of the following is a common source of beliefs?",
+        "options": {
+          "A": "Culture and upbringing",
+          "B": "Experiences and education",
+          "C": "Trusted people or traditions",
+          "D": "All of the above"
+        },
+        "answer": { "D": "All of the above" }
+      },
+      {
+        "question": "Why is it important to look at counterarguments to a belief?",
+        "options": {
+          "A": "It makes the belief disappear",
+          "B": "It helps test the strength of the belief",
+          "C": "It proves other people wrong",
+          "D": "It removes the need for evidence"
+        },
+        "answer": { "B": "It helps test the strength of the belief" }
+      },
+      {
+        "question": "Which of these could be considered supporting evidence for a belief?",
+        "options": {
+          "A": "Repeated life experiences",
+          "B": "Cultural traditions",
+          "C": "Facts or information learned",
+          "D": "All of the above"
+        },
+        "answer": { "D": "All of the above" }
+      },
+      {
+        "question": "How does reflecting on a belief and its counterarguments benefit you?",
+        "options": {
+          "A": "It always weakens your belief",
+          "B": "It encourages open-mindedness and self-awareness",
+          "C": "It forces you to change your opinion",
+          "D": "It prevents you from trusting others"
+        },
+        "answer": { "B": "It encourages open-mindedness and self-awareness" }
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "test": [
+        {
+        "question": "What does media literacy primarily involve?",
+        "options": {
+          "A": "Learning how to write news articles",
+          "B": "The ability to access, analyze, and evaluate media responsibly",
+          "C": "Memorizing the names of popular news outlets",
+          "D": "Avoiding all online information"
+        },
+        "answer": { "B": "The ability to access, analyze, and evaluate media responsibly" }
+      },
+      {
+        "question": "Why is evaluating sources important when reading news?",
+        "options": {
+          "A": "Because false information spreads quickly online",
+          "B": "Because all sources are always unreliable",
+          "C": "Because only one perspective should be considered",
+          "D": "Because news articles never contain errors"
+        },
+        "answer": { "A": "Because false information spreads quickly online" }
+      },
+      {
+        "question": "Which of the following is a key step to check a news article’s credibility?",
+        "options": {
+          "A": "Ignore the author’s name",
+          "B": "Rely on only one website",
+          "C": "Cross-check facts with other trusted sources",
+          "D": "Focus only on the headline"
+        },
+        "answer": { "C": "Cross-check facts with other trusted sources" }
+      },
+      {
+        "question": "Which of these is a common red flag of unreliable news?",
+        "options": {
+          "A": "Balanced reporting with multiple perspectives",
+          "B": "Clickbait headlines designed only to grab attention",
+          "C": "Direct quotes from experts",
+          "D": "Citations from official documents"
+        },
+        "answer": { "B": "Clickbait headlines designed only to grab attention" }
+      },
+      {
+        "question": "What should you look for to judge whether a news article is trustworthy?",
+        "options": {
+          "A": "The author’s background and supporting evidence",
+          "B": "How entertaining the article is",
+          "C": "The number of advertisements on the page",
+          "D": "If the story has gone viral on social media"
+        },
+        "answer": { "A": "The author’s background and supporting evidence" }
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "test": [
+        {
+        "question": "What is the main purpose of a debate?",
+        "options": {
+          "A": "To memorize facts without discussion",
+          "B": "To present and defend different viewpoints on a topic",
+          "C": "To avoid disagreement and maintain silence",
+          "D": "To agree with one side only"
+        },
+        "answer": { "B": "To present and defend different viewpoints on a topic" }
+      },
+      {
+        "question": "Why is it useful to argue both sides of a debate?",
+        "options": {
+          "A": "It eliminates the need for evidence",
+          "B": "It helps build empathy and strengthens critical thinking",
+          "C": "It proves one side is always correct",
+          "D": "It shortens the debate process"
+        },
+        "answer": { "B": "It helps build empathy and strengthens critical thinking" }
+      },
+      {
+        "question": "Which of the following is a recommended step in practicing balanced debating?",
+        "options": {
+          "A": "Only focus on the side you agree with",
+          "B": "Switch perspectives and argue both for and against",
+          "C": "Avoid topics that have two sides",
+          "D": "Always choose the most popular opinion"
+        },
+        "answer": { "B": "Switch perspectives and argue both for and against" }
+      },
+      {
+        "question": "Which of these is an example of a debate topic?",
+        "options": {
+          "A": "Should voting be mandatory in democratic countries?",
+          "B": "What is the capital of France?",
+          "C": "How many days are in a week?",
+          "D": "What is 2 + 2?"
+        },
+        "answer": { "A": "Should voting be mandatory in democratic countries?" }
+      },
+      {
+        "question": "After debating both sides of a topic, what should you do?",
+        "options": {
+          "A": "Ignore the weaker arguments",
+          "B": "Reflect on which side had stronger reasoning and what you learned",
+          "C": "Always side with your personal belief",
+          "D": "Repeat the same arguments again"
+        },
+        "answer": { "B": "Reflect on which side had stronger reasoning and what you learned" }
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "test": [
+        {
+        "question": "What is a logic puzzle?",
+        "options": {
+          "A": "A puzzle that can only be solved by guessing",
+          "B": "A problem requiring reasoning, patterns, or critical thinking",
+          "C": "A picture with colors to fill in",
+          "D": "A simple math calculation without rules"
+        },
+        "answer": { "B": "A problem requiring reasoning, patterns, or critical thinking" }
+      },
+      {
+        "question": "Why do brain teasers improve thinking?",
+        "options": {
+          "A": "They make solving puzzles automatic",
+          "B": "They sharpen focus, creativity, and structured problem-solving skills",
+          "C": "They eliminate the need for learning",
+          "D": "They guarantee the same answer every time"
+        },
+        "answer": { "B": "They sharpen focus, creativity, and structured problem-solving skills" }
+      },
+      {
+        "question": "Which of the following is an example of a deduction puzzle?",
+        "options": {
+          "A": "Spotting differences in two pictures",
+          "B": "Solving a riddle about a hidden meaning",
+          "C": "Using clues to figure out who owns what in a story",
+          "D": "Identifying a number sequence"
+        },
+        "answer": { "C": "Using clues to figure out who owns what in a story" }
+      },
+      {
+        "question": "What is the first step in structured problem-solving?",
+        "options": {
+          "A": "Break the puzzle into smaller steps",
+          "B": "Read the problem carefully and identify the goal",
+          "C": "Look for repeated patterns",
+          "D": "Test the solution against the rules"
+        },
+        "answer": { "B": "Read the problem carefully and identify the goal" }
+      },
+      {
+        "question": "When solving a logic puzzle, why is 'test and verify' important?",
+        "options": {
+          "A": "It ensures the solution follows all rules and is accurate",
+          "B": "It allows skipping difficult steps",
+          "C": "It guarantees the fastest solution time",
+          "D": "It avoids using reasoning skills"
+        },
+        "answer": { "A": "It ensures the solution follows all rules and is accurate" }
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "test": [
+        {
+        "question": "What is cause and effect analysis primarily used for?",
+        "options": {
+          "A": "To list random problems without solutions",
+          "B": "To identify why a problem happens and what outcomes it creates",
+          "C": "To avoid analyzing issues in detail",
+          "D": "To describe unrelated events"
+        },
+        "answer": { "B": "To identify why a problem happens and what outcomes it creates" }
+      },
+      {
+        "question": "Why does breaking problems down into causes and effects help?",
+        "options": {
+          "A": "It makes the problem disappear automatically",
+          "B": "It ensures you only focus on short-term fixes",
+          "C": "It allows addressing root causes instead of just symptoms",
+          "D": "It avoids the need to solve the problem"
+        },
+        "answer": { "C": "It allows addressing root causes instead of just symptoms" }
+      },
+      {
+        "question": "Which tool is also known as an Ishikawa diagram?",
+        "options": {
+          "A": "5 Whys Method",
+          "B": "Cause-Effect List",
+          "C": "Fishbone Diagram",
+          "D": "Mind Map"
+        },
+        "answer": { "C": "Fishbone Diagram" }
+      },
+      {
+        "question": "In the 5 Whys method, what is the main purpose of repeatedly asking 'Why?'",
+        "options": {
+          "A": "To make the problem more confusing",
+          "B": "To identify surface-level effects",
+          "C": "To reach the root cause of the problem",
+          "D": "To create more problems to solve"
+        },
+        "answer": { "C": "To reach the root cause of the problem" }
+      },
+      {
+        "question": "What is the final step in analyzing problems effectively?",
+        "options": {
+          "A": "Identify the problem",
+          "B": "Reflect on solutions to address root causes",
+          "C": "List possible causes",
+          "D": "Map the effects"
+        },
+        "answer": { "B": "Reflect on solutions to address root causes" }
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "test": [
+        {
+        "question": "What does media bias mean?",
+        "options": {
+          "A": "When information is presented in a way that favors a particular side or opinion",
+          "B": "When all facts are presented equally",
+          "C": "When reporters avoid sharing any stories",
+          "D": "When media uses only statistics"
+        },
+        "answer": { "A": "When information is presented in a way that favors a particular side or opinion" }
+      },
+      {
+        "question": "Why is it important to recognize bias in media?",
+        "options": {
+          "A": "So you can avoid all news completely",
+          "B": "To make informed decisions and avoid manipulation",
+          "C": "To always agree with one perspective",
+          "D": "To memorize news articles"
+        },
+        "answer": { "B": "To make informed decisions and avoid manipulation" }
+      },
+      {
+        "question": "Which type of bias involves using emotionally charged words to shape perception?",
+        "options": {
+          "A": "Selection Bias",
+          "B": "Omission Bias",
+          "C": "Language Bias",
+          "D": "Confirmation Bias"
+        },
+        "answer": { "C": "Language Bias" }
+      },
+      {
+        "question": "If an article highlights only facts that support one belief while ignoring opposing evidence, what kind of bias is this?",
+        "options": {
+          "A": "Confirmation Bias",
+          "B": "Selection Bias",
+          "C": "Omission Bias",
+          "D": "Neutral Reporting"
+        },
+        "answer": { "A": "Confirmation Bias" }
+      },
+      {
+        "question": "Which of the following is a key step in spotting media bias?",
+        "options": {
+          "A": "Memorize every news story",
+          "B": "Ignore all sources",
+          "C": "Compare the story with other sources",
+          "D": "Focus only on headlines"
+        },
+        "answer": { "C": "Compare the story with other sources" }
+      }
+    ]
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "day": 2,
+    "test": [
+      {
+        "question": "Why is recording yourself reading aloud helpful for improving communication?",
+        "options": {
+          "A": "It allows you to memorize long passages",
+          "B": "It helps you hear and identify areas for improvement",
+          "C": "It automatically edits your mistakes",
+          "D": "It makes your voice louder"
+        },
+        "answer": { "B": "It helps you hear and identify areas for improvement" }
+      },
+      {
+        "question": "What does clarity in speech ensure?",
+        "options": {
+          "A": "That your voice sounds more musical",
+          "B": "That listeners can easily understand your message",
+          "C": "That you finish speaking faster",
+          "D": "That your speech has more emotion"
+        },
+        "answer": { "B": "That listeners can easily understand your message" }
+      },
+      {
+        "question": "How does tone and expression improve spoken communication?",
+        "options": {
+          "A": "By reducing the need for words",
+          "B": "By adding emotional depth and keeping the audience engaged",
+          "C": "By making speech slower and calmer",
+          "D": "By improving grammar automatically"
+        },
+        "answer": { "B": "By adding emotional depth and keeping the audience engaged" }
+      },
+      {
+        "question": "What happens when your pacing is too fast or too slow?",
+        "options": {
+          "A": "Your voice becomes clearer",
+          "B": "The audience may struggle to follow your message",
+          "C": "Your tone becomes more expressive",
+          "D": "You memorize passages more easily"
+        },
+        "answer": { "B": "The audience may struggle to follow your message" }
+      },
+      {
+        "question": "What is one good practice when recording yourself?",
+        "options": {
+          "A": "Ignore mistakes and focus only on speed",
+          "B": "Play back the recording to check clarity, tone, and pacing",
+          "C": "Only practice when reading long books",
+          "D": "Avoid listening to your own voice"
+        },
+        "answer": { "B": "Play back the recording to check clarity, tone, and pacing" }
+      }
+    ]
+  },
+
+    {
+  "day": 3,
+  "test": [
+    {
+      "question": "What is active listening?",
+      "options": {
+        "A": "Nodding without paying attention",
+        "B": "Hearing words without understanding",
+        "C": "Giving full attention, understanding the message, and responding thoughtfully",
+        "D": "Waiting silently until it's your turn to speak"
+      },
+      "answer": { "C": "Giving full attention, understanding the message, and responding thoughtfully" }
+    },
+    {
+      "question": "Why does active listening matter in communication?",
+      "options": {
+        "A": "It helps you win arguments quickly",
+        "B": "It builds trust, reduces misunderstandings, and shows respect",
+        "C": "It allows you to plan your response faster",
+        "D": "It makes conversations shorter"
+      },
+      "answer": { "B": "It builds trust, reduces misunderstandings, and shows respect" }
+    },
+    {
+      "question": "Which of the following is a key skill in active listening?",
+      "options": {
+        "A": "Interrupting with your own ideas",
+        "B": "Rehearsing replies while the other speaks",
+        "C": "Paraphrasing or summarizing to confirm understanding",
+        "D": "Checking your phone while listening"
+      },
+      "answer": { "C": "Paraphrasing or summarizing to confirm understanding" }
+    },
+    {
+      "question": "What is a common barrier to effective listening?",
+      "options": {
+        "A": "Maintaining eye contact",
+        "B": "Judging too quickly before hearing the full message",
+        "C": "Using affirmations like 'I see'",
+        "D": "Staying present in the moment"
+      },
+      "answer": { "B": "Judging too quickly before hearing the full message" }
+    },
+    {
+      "question": "According to active listening practice, when should you respond?",
+      "options": {
+        "A": "While the speaker is talking to save time",
+        "B": "Only after the speaker has finished their message",
+        "C": "Immediately, to keep the conversation flowing",
+        "D": "Before they finish, to share your opinion"
+      },
+      "answer": { "B": "Only after the speaker has finished their message" }
+    }
+  ]
+},
+
+{
+  "day": 4,
+  "test": [
+    {
+      "question": "Why does expanding your vocabulary matter?",
+      "options": {
+        "A": "It makes reading more difficult",
+        "B": "It improves expression, comprehension, and confidence in communication",
+        "C": "It replaces the need to practice speaking",
+        "D": "It helps you memorize random words without context"
+      },
+      "answer": { "B": "It improves expression, comprehension, and confidence in communication" }
+    },
+    {
+      "question": "Which is NOT an effective way to learn new vocabulary?",
+      "options": {
+        "A": "Looking up meanings in a reliable dictionary",
+        "B": "Understanding how the word is used in context",
+        "C": "Using repetition in writing and speech",
+        "D": "Ignoring context and only memorizing spelling"
+      },
+      "answer": { "D": "Ignoring context and only memorizing spelling" }
+    },
+    {
+      "question": "Which of these is an example of practicing vocabulary?",
+      "options": {
+        "A": "Making flashcards with word meanings",
+        "B": "Creating sentences using new words",
+        "C": "Using new words in daily conversations",
+        "D": "All of the above"
+      },
+      "answer": { "D": "All of the above" }
+    },
+    {
+      "question": "What does the word 'Meticulous' mean?",
+      "options": {
+        "A": "Fluent or persuasive in speaking or writing",
+        "B": "Able to recover quickly from setbacks",
+        "C": "Showing great attention to detail; very careful and precise",
+        "D": "Quick to forget or overlook details"
+      },
+      "answer": { "C": "Showing great attention to detail; very careful and precise" }
+    },
+    {
+      "question": "Which sentence correctly uses the word 'Resilient'?",
+      "options": {
+        "A": "She was resilient in her ability to recover from difficulties.",
+        "B": "He was resilient because he spoke very fluently.",
+        "C": "Her resilient notes were extremely detailed and precise.",
+        "D": "The resilient essay persuaded the audience with emotion."
+      },
+      "answer": { "A": "She was resilient in her ability to recover from difficulties." }
+    }
+  ]
+},
+
+{
+  "day": 5,
+  "test": [
+    {
+      "question": "Why is practicing in front of a mirror helpful?",
+      "options": {
+        "A": "It helps you memorize long speeches word-for-word",
+        "B": "It allows you to see yourself as others do and notice body language",
+        "C": "It makes you speak faster",
+        "D": "It eliminates the need for recording yourself"
+      },
+      "answer": { "B": "It allows you to see yourself as others do and notice body language" }
+    },
+    {
+      "question": "Which element should you observe to ensure your expressions match your message?",
+      "options": {
+        "A": "Posture",
+        "B": "Gestures",
+        "C": "Facial Expressions",
+        "D": "Eye Contact"
+      },
+      "answer": { "C": "Facial Expressions" }
+    },
+    {
+      "question": "What is one useful tip for effective mirror practice?",
+      "options": {
+        "A": "Speak for at least 2 minutes using a timer",
+        "B": "Avoid reflecting on strengths and weaknesses",
+        "C": "Choose a complex, unfamiliar topic to challenge yourself",
+        "D": "Stand stiffly without moving your hands"
+      },
+      "answer": { "A": "Speak for at least 2 minutes using a timer" }
+    },
+    {
+      "question": "Which of the following is a common mistake to avoid?",
+      "options": {
+        "A": "Maintaining steady eye contact",
+        "B": "Using natural hand movements",
+        "C": "Speaking in a monotone voice",
+        "D": "Standing tall and confident"
+      },
+      "answer": { "C": "Speaking in a monotone voice" }
+    },
+    {
+      "question": "How does good posture help during mirror speaking practice?",
+      "options": {
+        "A": "It makes you speak faster",
+        "B": "It projects confidence and assurance",
+        "C": "It removes the need for gestures",
+        "D": "It helps you avoid eye contact"
+      },
+      "answer": { "B": "It projects confidence and assurance" }
+    }
+  ]
+},
+
+{
+  "day": 6,
+  "test": [
+    {
+      "question": "Why are TED Talks useful for learning communication skills?",
+      "options": {
+        "A": "They are always about entertainment only",
+        "B": "They feature skilled speakers who demonstrate effective techniques",
+        "C": "They focus only on technology topics",
+        "D": "They are shorter than other speeches"
+      },
+      "answer": { "B": "They feature skilled speakers who demonstrate effective techniques" }
+    },
+    {
+      "question": "Which element should you observe to understand how a speaker connects with the audience physically?",
+      "options": {
+        "A": "Tone",
+        "B": "Structure",
+        "C": "Body Language",
+        "D": "Storytelling"
+      },
+      "answer": { "C": "Body Language" }
+    },
+    {
+      "question": "What role does storytelling play in a TED Talk?",
+      "options": {
+        "A": "It makes the talk longer and more complex",
+        "B": "It distracts the audience from the main topic",
+        "C": "It makes ideas more memorable through personal stories and examples",
+        "D": "It replaces the need for structure in the talk"
+      },
+      "answer": { "C": "It makes ideas more memorable through personal stories and examples" }
+    },
+    {
+      "question": "What is one benefit of analyzing skilled speakers?",
+      "options": {
+        "A": "It helps you memorize their talks word-for-word",
+        "B": "It makes you less aware of delivery techniques",
+        "C": "It boosts confidence and helps refine your speaking style",
+        "D": "It removes the need for practice"
+      },
+      "answer": { "C": "It boosts confidence and helps refine your speaking style" }
+    },
+    {
+      "question": "How can you apply observations from a TED Talk?",
+      "options": {
+        "A": "Write down techniques and try using them in your own practice",
+        "B": "Ignore the techniques and only focus on content",
+        "C": "Watch the talk without taking notes",
+        "D": "Copy the speaker’s words exactly"
+      },
+      "answer": { "A": "Write down techniques and try using them in your own practice" }
+    }
+  ]
+},
+
+{
+  "day": 7,
+  "test": [
+    {
+      "question": "Why does clear communication in messages and emails matter?",
+      "options": {
+        "A": "It saves time, reduces misunderstandings, and builds credibility",
+        "B": "It makes emails longer and more detailed",
+        "C": "It avoids the need to proofread",
+        "D": "It allows you to use more complex vocabulary"
+      },
+      "answer": { "A": "It saves time, reduces misunderstandings, and builds credibility" }
+    },
+    {
+      "question": "Which of the following is an element of an effective message?",
+      "options": {
+        "A": "Adding unnecessary details",
+        "B": "Using vague language",
+        "C": "Defining the main goal clearly",
+        "D": "Skipping greetings and structure"
+      },
+      "answer": { "C": "Defining the main goal clearly" }
+    },
+    {
+      "question": "What is a common mistake to avoid when writing messages?",
+      "options": {
+        "A": "Proofreading before sending",
+        "B": "Sounding too abrupt or informal in the wrong context",
+        "C": "Organizing with greeting, body, and closing",
+        "D": "Using direct and simple language"
+      },
+      "answer": { "B": "Sounding too abrupt or informal in the wrong context" }
+    },
+    {
+      "question": "Which step helps improve clarity in your writing?",
+      "options": {
+        "A": "Draft first, then revise and proofread",
+        "B": "Write once and send immediately",
+        "C": "Avoid checking tone or grammar",
+        "D": "Focus only on length instead of purpose"
+      },
+      "answer": { "A": "Draft first, then revise and proofread" }
+    },
+    {
+      "question": "What should every clear message or email highlight?",
+      "options": {
+        "A": "Complex words to impress the reader",
+        "B": "The recipient’s past mistakes",
+        "C": "An unclear topic for open interpretation",
+        "D": "The specific action expected from the recipient"
+      },
+      "answer": { "D": "The specific action expected from the recipient" }
+    }
+  ]
+}
+
+]
