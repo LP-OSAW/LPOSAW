@@ -116,5 +116,28 @@
             "Kegel Exercises – Improve pelvic floor health and circulation.",
             "Locust Pose (Salabhasana) – Strengthens the back and pelvic region."
         ]
+    },
+    
+    {
+        "day": 6,
+        "title": "Restorative Yoga and Relaxation",
+        "img": "/assets/YogaImgs/PCODImgs/6.avif",
+        "intro": "Explore the power of rest in managing PCOD symptoms. This session introduces restorative yoga poses and relaxation techniques that calm the nervous system and support deep healing.",
+        "topics": [
+            "The Importance of Relaxation and Proper Sleep for Managing PCOD Symptoms",
+            "Using Restorative Poses to Reset and Rejuvenate the Body"
+        ],
+        "theory": {
+            "The Importance of Relaxation and Proper Sleep for Managing PCOD Symptoms": "Chronic stress and lack of quality sleep can disrupt hormonal balance and worsen PCOD symptoms. Prioritizing relaxation supports the endocrine system, improves emotional regulation, and enhances overall well-being. Sleep and rest play a crucial role in balancing insulin levels and reducing inflammation.",
+            "Using Restorative Poses to Reset and Rejuvenate the Body": "Restorative yoga uses gentle, supported poses held for extended periods to encourage relaxation and healing. These postures help shift the body into the parasympathetic (rest-and-digest) state, which is essential for hormonal balance and reducing fatigue often associated with PCOD."
+        },
+        "activity": [
+            "Supported Child’s Pose (Balasana) – Kneel on the mat and place a bolster or pillows in front of you. Fold forward, resting your torso and head on the support. Let your arms relax by your sides or forward. Stay for 5–10 minutes, breathing gently.",
+            "Legs Up the Wall Pose (Viparita Karani) – Lie on your back and extend your legs up a wall. Rest here for 5–10 minutes to calm the nervous system.",
+            "Savasana – Lie flat on your back with arms and legs relaxed. Close your eyes and remain still for 5–10 minutes to promote deep rest.",
+            "Gentle Breathing – Practice diaphragmatic breathing, focusing on slow, even breaths to release stress and anchor the mind."
+        ]
     }
+
+
 ]
